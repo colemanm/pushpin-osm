@@ -1,7 +1,7 @@
 {
    "forms":[
       {
-         "_id":"4fb6c042144140674e000015",
+         "id":"4fb6c042144140674e000015",
          "name":"OpenStreetMap",
          "description":"OpenStreetMap",
          "project_ids":[ "4fb6bfbf144140674e000014" ],
