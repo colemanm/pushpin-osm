@@ -1376,10 +1376,10 @@
                         {
                            "_id":"4fb6c042144140674e000091",
                            "data_name":"source",
-                           "default_value":"Fulcrum iOS",
+                           "default_value":"Pushpin iOS",
                            "description":null,
                            "disabled":true,
-                           "hidden":false,
+                           "hidden":true,
                            "key":"866418c8-ef6b-e72b-42c3-8b36ab7ae74b",
                            "label":"Source",
                            "required":false,
