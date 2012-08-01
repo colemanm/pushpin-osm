@@ -1,7 +1,7 @@
 {
   "choice_lists":[
     {
-      "_id":"4f32c38814414014b800023f",
+      "id":"4f32c38814414014b800023f",
       "choices":[
         {
           "label":"American",
@@ -88,7 +88,6 @@
           "value":"cuisine=japanese"
         },
         {
-          "_id":"4f32c38814414014b800024b",
           "label":"Kebab",
           "value":"cuisine=kebab"
         },
@@ -177,7 +176,7 @@
       "name":"OSM Cuisines"
     },
     {
-      "_id":"4fc2e0741441406a79000005",
+      "id":"4fc2e0741441406a79000005",
       "choices":[
         {
           "label":"Animist",
@@ -252,7 +251,7 @@
       "name":"OSM Religions"
     },
     {
-      "_id":"4f8cd64c1441404dbf000002",
+      "id":"4f8cd64c1441404dbf000002",
       "choices":[
         {
           "label":"Archery",
@@ -403,7 +402,7 @@
       "name":"OSM Sports"
     },
     {
-      "_id":"4f8ce995144140558c0002d6",
+      "id":"4f8ce995144140558c0002d6",
       "choices":[
         {
           "label":"Cigarettes",
