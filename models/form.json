@@ -1414,7 +1414,7 @@
                      "_id":"4fb6c1b8144140673d000093",
                      "data_name":"notes",
                      "default_value":null,
-                     "description":"Add other tags here.",
+                     "description":"Add general notes about this record here.",
                      "disabled":false,
                      "hidden":false,
                      "key":"4819006f-f553-aad2-e5d6-867f2aeb06cc",
