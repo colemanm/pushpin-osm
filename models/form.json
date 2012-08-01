@@ -381,7 +381,7 @@
                            ],
                            "data_name":"fuel_types",
                            "default_value":null,
-                           "description":null,
+                           "description":"What specific fuel types are available?",
                            "disabled":false,
                            "hidden":false,
                            "key":"e25596f8-9d91-f471-5617-d484c7923e5c",
@@ -400,6 +400,41 @@
                            ],
                            "visible_conditions_type":"any"
                         },
+												{
+												   "allow_other":false,
+												   "choices":[
+												      {
+												         "_id":"5018afe01441401c740000a0",
+												         "label":"Yes",
+												         "value":"car_wash=yes"
+												      },
+												      {
+												         "_id":"5018afe01441401c740000a1",
+												         "label":"No",
+												         "value":"car_wash=no"
+												      }
+												   ],
+												   "data_name":"car_wash",
+												   "default_value":null,
+												   "description":"Is there car wash service available at the location?",
+												   "disabled":false,
+												   "hidden":false,
+												   "key":"bcd2a7f4-9907-9b7c-8d97-a3cffe3948e5",
+												   "label":"Car Wash?",
+												   "multiple":false,
+												   "required":false,
+												   "required_conditions_type":null,
+												   "type":"ChoiceField",
+												   "visible_conditions":[
+												      {
+												         "_id":"5018afe01441401c740000a2",
+												         "field_key":"9b0f2274-d66f-e79b-40b4-651d9e4581cf",
+												         "operator":"equal_to",
+												         "value":"transportation,amenity=fuel"
+												      }
+												   ],
+												   "visible_conditions_type":"all"
+												},
                         {
                            "_id":"4fb6c042144140674e000041",
                            "allow_other":false,
