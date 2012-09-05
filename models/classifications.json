@@ -138,8 +138,6 @@
               "value":"denomination=conservative"
             },
             {
-            },
-            {
               "label":"Humanistic",
               "value":"denomination=humanistic"
             },
@@ -272,6 +270,184 @@
       "description":"For classifying places of worship.",
       "name":"OSM Religions & Denominations"
     },
+		{
+			"_id": "4fc2eaa31441401936000003",
+		  "name": "OSM Cuisines",
+		  "description": "Cuisines for restaurants and eateries.",
+		  "items": [
+		    {
+		      "label": "American",
+		      "value": "cuisine=american",
+		    },
+		    {
+		      "label": "Bagels",
+		      "value": "cuisine=bagel",
+		    },
+		    {
+		      "label": "Barbecue",
+		      "value": "cuisine=barbecue",
+		    },
+		    {
+		      "label": "Brazilian",
+		      "value": "cuisine=brazilian",
+		    },
+		    {
+		      "label": "Burger",
+		      "value": "cuisine=burger",
+		    },
+		    {
+		      "label": "Cake",
+		      "value": "cuisine=cake",
+		    },
+		    {
+		      "label": "Chicken",
+		      "value": "cuisine=chicken",
+		    },
+		    {
+		      "label": "Chinese",
+		      "value": "cuisine=chinese",
+		    },
+		    {
+		      "label": "Coffee Shop",
+		      "value": "cuisine=coffee_shop",
+		    },
+		    {
+		      "label": "Crepe",
+		      "value": "cuisine=crepe",
+		    },
+		    {
+		      "label": "Curry",
+		      "value": "cuisine=curry",
+		    },
+		    {
+		      "label": "Diner",
+		      "value": "cuisine=diner",
+		    },
+		    {
+		      "label": "Doughnut",
+		      "value": "cuisine=doughnut",
+		    },
+		    {
+		      "label": "French",
+		      "value": "cuisine=french",
+		    },
+		    {
+		      "label": "Fried Food",
+		      "value": "cuisine=fried_food",
+		    },
+		    {
+		      "label": "German",
+		      "value": "cuisine=german",
+		    },
+		    {
+		      "label": "Greek",
+		      "value": "cuisine=greek",
+		    },
+		    {
+		      "label": "Ice Cream",
+		      "value": "cuisine=ice_cream",
+		    },
+		    {
+		      "label": "Indian",
+		      "value": "cuisine=indian", 
+		    },
+		    {
+		      "label": "Italian",
+		      "value": "cuisine=italian",
+		    },
+		    {
+		      "label": "Japanese",
+		      "value": "cuisine=japanese",
+		    },
+		    {
+		      "label": "Kebab",
+		      "value": "cuisine=kebab",
+		    },
+		    {
+		      "label": "Korean",
+		      "value": "cuisine=korean",
+		    },
+		    {
+		      "label": "Latin American",
+		      "value": "cuisine=latin_american",
+		    },
+		    {
+		      "label": "Lebanese",
+		      "value": "cuisine=lebanese",
+		      
+		    },
+		    {
+		      "label": "Mediterranean",
+		      "value": "cuisine=mediterranean",
+		      
+		    },
+		    {
+		      "label": "Mexican",
+		      "value": "cuisine=mexican",
+		    },
+		    {
+		      "label": "Middle Eastern",
+		      "value": "cuisine=arab",
+		    },
+		    {
+		      "label": "Noodle",
+		      "value": "cuisine=noodle",
+		    },
+		    {
+		      "label": "Pasta",
+		      "value": "cuisine=pasta",
+		    },
+		    {
+		      "label": "Persian",
+		      "value": "cuisine=iranian",
+		    },
+		    {
+		      "label": "Pie",
+		      "value": "cuisine=pie",
+		      
+		    },
+		    {
+		      "label": "Pizza",
+		      "value": "cuisine=pizza",
+		    },
+		    {
+		      "label": "Sandwich",
+		      "value": "cuisine=sandwich",
+		    },
+		    {
+		      "label": "Sausage",
+		      "value": "cuisine=sausage",
+		    },
+		    {
+		      "label": "Seafood",
+		      "value": "cuisine=seafood",
+		    },
+		    {
+		      "label": "Spanish",
+		      "value": "cuisine=spanish",
+		    },
+		    {
+		      "label": "Steak House",
+		      "value": "cuisine=steak_house",
+		    },
+		    {
+		      "label": "Sushi",
+		      "value": "cuisine=sushi",
+		    },
+		    {
+		      "label": "Tapas",
+		      "value": "cuisine=tapas",
+		    },
+		    {
+		      "label": "Thai",
+		      "value": "cuisine=thai",
+		    },
+		    {
+		      "label": "Vietnamese",
+		      "value": "cuisine=vietnamese",
+		    }
+		  ]
+		},
     {
         "_id": "4f8c9c0e14414030bf00002f",
         "description": "Classes for OpenStreetMap features for Pushpin app.", 
