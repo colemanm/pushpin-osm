@@ -1,7 +1,7 @@
 {
   "classification_sets":[
     {
-      "_id": "4fc2eaa31441401936000002",
+      "id": "4fc2eaa31441401936000002",
       "items":[
         {
           "child_classifications":[
@@ -449,7 +449,7 @@
 		  ]
 		},
     {
-        "_id": "4f8c9c0e14414030bf00002f",
+        "id": "4f8c9c0e14414030bf00002f",
         "description": "Classes for OpenStreetMap features for Pushpin app.", 
         "items": [
             {
