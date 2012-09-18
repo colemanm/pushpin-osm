@@ -277,174 +277,171 @@
 		  "items": [
 		    {
 		      "label": "American",
-		      "value": "cuisine=american",
+		      "value": "cuisine=american"
 		    },
 		    {
 		      "label": "Bagels",
-		      "value": "cuisine=bagel",
+		      "value": "cuisine=bagel"
 		    },
 		    {
 		      "label": "Barbecue",
-		      "value": "cuisine=barbecue",
+		      "value": "cuisine=barbecue"
 		    },
 		    {
 		      "label": "Brazilian",
-		      "value": "cuisine=brazilian",
+		      "value": "cuisine=brazilian"
 		    },
 		    {
 		      "label": "Burger",
-		      "value": "cuisine=burger",
+		      "value": "cuisine=burger"
 		    },
 		    {
 		      "label": "Cake",
-		      "value": "cuisine=cake",
+		      "value": "cuisine=cake"
 		    },
 		    {
 		      "label": "Chicken",
-		      "value": "cuisine=chicken",
+		      "value": "cuisine=chicken"
 		    },
 		    {
 		      "label": "Chinese",
-		      "value": "cuisine=chinese",
+		      "value": "cuisine=chinese"
 		    },
 		    {
 		      "label": "Coffee Shop",
-		      "value": "cuisine=coffee_shop",
+		      "value": "cuisine=coffee_shop"
 		    },
 		    {
 		      "label": "Crepe",
-		      "value": "cuisine=crepe",
+		      "value": "cuisine=crepe"
 		    },
 		    {
 		      "label": "Curry",
-		      "value": "cuisine=curry",
+		      "value": "cuisine=curry"
 		    },
 		    {
 		      "label": "Diner",
-		      "value": "cuisine=diner",
+		      "value": "cuisine=diner"
 		    },
 		    {
 		      "label": "Doughnut",
-		      "value": "cuisine=doughnut",
+		      "value": "cuisine=doughnut"
 		    },
 		    {
 		      "label": "French",
-		      "value": "cuisine=french",
+		      "value": "cuisine=french"
 		    },
 		    {
 		      "label": "Fried Food",
-		      "value": "cuisine=fried_food",
+		      "value": "cuisine=fried_food"
 		    },
 		    {
 		      "label": "German",
-		      "value": "cuisine=german",
+		      "value": "cuisine=german"
 		    },
 		    {
 		      "label": "Greek",
-		      "value": "cuisine=greek",
+		      "value": "cuisine=greek"
 		    },
 		    {
 		      "label": "Ice Cream",
-		      "value": "cuisine=ice_cream",
+		      "value": "cuisine=ice_cream"
 		    },
 		    {
 		      "label": "Indian",
-		      "value": "cuisine=indian", 
+		      "value": "cuisine=indian"
 		    },
 		    {
 		      "label": "Italian",
-		      "value": "cuisine=italian",
+		      "value": "cuisine=italian"
 		    },
 		    {
 		      "label": "Japanese",
-		      "value": "cuisine=japanese",
+		      "value": "cuisine=japanese"
 		    },
 		    {
 		      "label": "Kebab",
-		      "value": "cuisine=kebab",
+		      "value": "cuisine=kebab"
 		    },
 		    {
 		      "label": "Korean",
-		      "value": "cuisine=korean",
+		      "value": "cuisine=korean"
 		    },
 		    {
 		      "label": "Latin American",
-		      "value": "cuisine=latin_american",
+		      "value": "cuisine=latin_american"
 		    },
 		    {
 		      "label": "Lebanese",
-		      "value": "cuisine=lebanese",
-		      
+		      "value": "cuisine=lebanese"
 		    },
 		    {
 		      "label": "Mediterranean",
-		      "value": "cuisine=mediterranean",
-		      
+		      "value": "cuisine=mediterranean"
 		    },
 		    {
 		      "label": "Mexican",
-		      "value": "cuisine=mexican",
+		      "value": "cuisine=mexican"
 		    },
 		    {
 		      "label": "Middle Eastern",
-		      "value": "cuisine=arab",
+		      "value": "cuisine=arab"
 		    },
 		    {
 		      "label": "Noodle",
-		      "value": "cuisine=noodle",
+		      "value": "cuisine=noodle"
 		    },
 		    {
 		      "label": "Pasta",
-		      "value": "cuisine=pasta",
+		      "value": "cuisine=pasta"
 		    },
 		    {
 		      "label": "Persian",
-		      "value": "cuisine=iranian",
+		      "value": "cuisine=iranian"
 		    },
 		    {
 		      "label": "Pie",
-		      "value": "cuisine=pie",
-		      
+		      "value": "cuisine=pie"
 		    },
 		    {
 		      "label": "Pizza",
-		      "value": "cuisine=pizza",
+		      "value": "cuisine=pizza"
 		    },
 		    {
 		      "label": "Sandwich",
-		      "value": "cuisine=sandwich",
+		      "value": "cuisine=sandwich"
 		    },
 		    {
 		      "label": "Sausage",
-		      "value": "cuisine=sausage",
+		      "value": "cuisine=sausage"
 		    },
 		    {
 		      "label": "Seafood",
-		      "value": "cuisine=seafood",
+		      "value": "cuisine=seafood"
 		    },
 		    {
 		      "label": "Spanish",
-		      "value": "cuisine=spanish",
+		      "value": "cuisine=spanish"
 		    },
 		    {
 		      "label": "Steak House",
-		      "value": "cuisine=steak_house",
+		      "value": "cuisine=steak_house"
 		    },
 		    {
 		      "label": "Sushi",
-		      "value": "cuisine=sushi",
+		      "value": "cuisine=sushi"
 		    },
 		    {
 		      "label": "Tapas",
-		      "value": "cuisine=tapas",
+		      "value": "cuisine=tapas"
 		    },
 		    {
 		      "label": "Thai",
-		      "value": "cuisine=thai",
+		      "value": "cuisine=thai"
 		    },
 		    {
 		      "label": "Vietnamese",
-		      "value": "cuisine=vietnamese",
+		      "value": "cuisine=vietnamese"
 		    }
 		  ]
 		},
