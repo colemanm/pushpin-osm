@@ -447,1415 +447,1415 @@
 		},
     {
         "id": "4f8c9c0e14414030bf00002f",
-        "description": "Classes for OpenStreetMap features for Pushpin app.", 
+        "description": "Classes for OpenStreetMap features for Pushpin app.",
         "items": [
             {
                 "child_classifications": [
                     {
-                        "label": "Bathroom", 
+                        "label": "Bathroom",
                         "value": "amenity=toilets"
-                    }, 
+                    },
                     {
-                        "label": "Bike Racks", 
+                        "label": "Bike Racks",
                         "value": "amenity=bicycle_parking"
-                    }, 
+                    },
                     {
-                        "label": "Bike Rental", 
+                        "label": "Bike Rental",
                         "value": "amenity=bicycle_rental"
-                    }, 
+                    },
                     {
-                        "label": "Fountain", 
+                        "label": "Fountain",
                         "value": "amenity=fountain"
-                    }, 
+                    },
                     {
-                        "label": "Park Bench", 
+                        "label": "Park Bench",
                         "value": "amenity=bench"
-                    }, 
+                    },
                     {
-                        "label": "Pay Phone", 
+                        "label": "Pay Phone",
                         "value": "amenity=telephone"
-                    }, 
+                    },
                     {
-                        "label": "Post Box", 
+                        "label": "Post Box",
                         "value": "amenity=post_box"
-                    }, 
+                    },
                     {
-                        "label": "Vending Machine", 
+                        "label": "Vending Machine",
                         "value": "amenity=vending_machine"
-                    }, 
+                    },
                     {
-                        "label": "Water Fountain", 
+                        "label": "Water Fountain",
                         "value": "amenity=drinking_water"
                     }
-                ], 
-                "label": "Amenities / Outdoor", 
+                ],
+                "label": "Amenities / Outdoor",
                 "value": "amenities_outdoor"
-            }, 
+            },
             {
                 "child_classifications": [
                     {
-                        "label": "Arts Center", 
+                        "label": "Arts Center",
                         "value": "amenity=arts_centre"
-                    }, 
+                    },
                     {
-                        "label": "Casino", 
+                        "label": "Casino",
                         "value": "amenity=casino"
-                    }, 
+                    },
                     {
-                        "label": "Movie Theater / Cinema", 
+                        "label": "Movie Theater / Cinema",
                         "value": "amenity=cinema"
-                    }, 
+                    },
                     {
-                        "label": "Strip Club", 
+                        "label": "Strip Club",
                         "value": "amenity=stripclub"
-                    }, 
+                    },
                     {
-                        "label": "Studio", 
+                        "label": "Studio",
                         "value": "amenity=studio"
-                    }, 
+                    },
                     {
-                        "label": "Theater", 
+                        "label": "Theater",
                         "value": "amenity=theatre"
                     }
-                ], 
-                "label": "Arts & Entertainment", 
+                ],
+                "label": "Arts & Entertainment",
                 "value": "arts_entertainment"
-            }, 
+            },
             {
                 "child_classifications": [
                     {
-                        "label": "ATM", 
+                        "label": "ATM",
                         "value": "amenity=atm"
-                    }, 
+                    },
                     {
-                        "label": "Bank", 
+                        "label": "Bank",
                         "value": "amenity=bank"
-                    }, 
+                    },
                     {
-                        "label": "Currency Exchange", 
+                        "label": "Currency Exchange",
                         "value": "amenity=bureau_de_change"
                     }
-                ], 
-                "label": "Banking", 
+                ],
+                "label": "Banking",
                 "value": "Banking"
-            }, 
+            },
             {
                 "child_classifications": [
                     {
-                        "label": "Bar", 
+                        "label": "Bar",
                         "value": "amenity=bar"
-                    }, 
+                    },
                     {
-                        "label": "Beer Garden", 
+                        "label": "Beer Garden",
                         "value": "amenity=biergarten"
-                    }, 
+                    },
                     {
-                        "label": "Cafe", 
+                        "label": "Cafe",
                         "value": "amenity=cafe"
-                    }, 
+                    },
                     {
-                        "label": "Night Club", 
+                        "label": "Night Club",
                         "value": "amenity=nightclub"
-                    }, 
+                    },
                     {
-                        "label": "Pub", 
+                        "label": "Pub",
                         "value": "amenity=pub"
                     }
-                ], 
-                "label": "Bars & Cafes", 
+                ],
+                "label": "Bars & Cafes",
                 "value": "bars_cafes"
-            }, 
+            },
             {
                 "child_classifications": [
                     {
                         "child_classifications": [
                             {
-                                "label": "Basket Maker", 
+                                "label": "Basket Maker",
                                 "value": "craft=basket_maker"
-                            }, 
+                            },
                             {
-                                "label": "Glass Shop", 
+                                "label": "Glass Shop",
                                 "value": "craft=glaziery"
-                            }, 
+                            },
                             {
-                                "label": "Jeweler", 
+                                "label": "Jeweler",
                                 "value": "craft=jeweller"
-                            }, 
+                            },
                             {
-                                "label": "Keycutter", 
+                                "label": "Keycutter",
                                 "value": "craft=key_cutter"
-                            }, 
+                            },
                             {
-                                "label": "Locksmith", 
+                                "label": "Locksmith",
                                 "value": "craft=locksmith"
-                            }, 
+                            },
                             {
-                                "label": "Optician", 
+                                "label": "Optician",
                                 "value": "craft=optician"
-                            }, 
+                            },
                             {
-                                "label": "Photographer", 
+                                "label": "Photographer",
                                 "value": "craft=photographer"
-                            }, 
+                            },
                             {
-                                "label": "Pottery", 
+                                "label": "Pottery",
                                 "value": "craft=pottery"
-                            }, 
+                            },
                             {
-                                "label": "Sculptor", 
+                                "label": "Sculptor",
                                 "value": "craft=sculptor"
                             }
-                        ], 
-                        "label": "Art & Craft", 
+                        ],
+                        "label": "Art & Craft",
                         "value": "art_craft"
-                    }, 
+                    },
                     {
                         "child_classifications": [
                             {
-                                "label": "Boatbuilder", 
+                                "label": "Boatbuilder",
                                 "value": "craft=boatbuilder"
-                            }, 
+                            },
                             {
-                                "label": "Rigger", 
+                                "label": "Rigger",
                                 "value": "craft=rigger"
-                            }, 
+                            },
                             {
-                                "label": "Sailmaker", 
+                                "label": "Sailmaker",
                                 "value": "craft=sailmaker"
                             }
-                        ], 
-                        "label": "Boating", 
+                        ],
+                        "label": "Boating",
                         "value": "boating"
-                    }, 
+                    },
                     {
                         "child_classifications": [
                             {
-                                "label": "Dressmaker", 
+                                "label": "Dressmaker",
                                 "value": "craft=dressmaker"
-                            }, 
+                            },
                             {
-                                "label": "Shoemaker", 
+                                "label": "Shoemaker",
                                 "value": "craft=shoemaker"
-                            }, 
+                            },
                             {
-                                "label": "Tailor", 
+                                "label": "Tailor",
                                 "value": "craft=tailor"
-                            }, 
+                            },
                             {
-                                "label": "Upholstery", 
+                                "label": "Upholstery",
                                 "value": "craft=upholsterer"
                             }
-                        ], 
-                        "label": "Clothing & Furniture", 
+                        ],
+                        "label": "Clothing & Furniture",
                         "value": "clothing"
-                    }, 
+                    },
                     {
                         "child_classifications": [
                             {
-                                "label": "Blacksmith", 
+                                "label": "Blacksmith",
                                 "value": "craft=blacksmith"
-                            }, 
+                            },
                             {
-                                "label": "Carpenter", 
+                                "label": "Carpenter",
                                 "value": "craft=carpenter"
-                            }, 
+                            },
                             {
-                                "label": "Carpeting", 
+                                "label": "Carpeting",
                                 "value": "craft=carpet_layer"
-                            }, 
+                            },
                             {
-                                "label": "Cleaning / Maid", 
+                                "label": "Cleaning / Maid",
                                 "value": "craft=cleaning"
-                            }, 
+                            },
                             {
-                                "label": "Clockmaker", 
+                                "label": "Clockmaker",
                                 "value": "craft=clockmaker"
-                            }, 
+                            },
                             {
-                                "label": "Electrician", 
+                                "label": "Electrician",
                                 "value": "craft=electrician"
-                            }, 
+                            },
                             {
-                                "label": "Handyman", 
+                                "label": "Handyman",
                                 "value": "craft=handicraft"
-                            }, 
+                            },
                             {
-                                "label": "Heating / AC", 
+                                "label": "Heating / AC",
                                 "value": "craft=hvac"
-                            }, 
+                            },
                             {
-                                "label": "Insulation", 
+                                "label": "Insulation",
                                 "value": "craft=insulation"
-                            }, 
+                            },
                             {
-                                "label": "Metalwork", 
+                                "label": "Metalwork",
                                 "value": "craft=metal_construction"
-                            }, 
+                            },
                             {
-                                "label": "Painter", 
+                                "label": "Painter",
                                 "value": "craft=painter"
-                            }, 
+                            },
                             {
-                                "label": "Plumber", 
+                                "label": "Plumber",
                                 "value": "craft=plumber"
-                            }, 
+                            },
                             {
-                                "label": "Roofer", 
+                                "label": "Roofer",
                                 "value": "craft=roofer"
-                            }, 
+                            },
                             {
-                                "label": "Sawmill", 
+                                "label": "Sawmill",
                                 "value": "craft=sawmill"
-                            }, 
+                            },
                             {
-                                "label": "Scaffolder", 
+                                "label": "Scaffolder",
                                 "value": "craft=scaffolder"
-                            }, 
+                            },
                             {
-                                "label": "Stonemason", 
+                                "label": "Stonemason",
                                 "value": "craft=stonemason"
-                            }, 
+                            },
                             {
-                                "label": "Tiler / Flooring", 
+                                "label": "Tiler / Flooring",
                                 "value": "craft=tiler"
                             }
-                        ], 
-                        "label": "Construction / Repair / Maintenance", 
+                        ],
+                        "label": "Construction / Repair / Maintenance",
                         "value": "construction_repair"
-                    }, 
+                    },
                     {
                         "child_classifications": [
                             {
-                                "label": "Beekeeper / Apiary", 
+                                "label": "Beekeeper / Apiary",
                                 "value": "craft=beekeeper"
-                            }, 
+                            },
                             {
-                                "label": "Brewery", 
+                                "label": "Brewery",
                                 "value": "craft=brewery"
-                            }, 
+                            },
                             {
-                                "label": "Catering", 
+                                "label": "Catering",
                                 "value": "craft=caterer"
-                            }, 
+                            },
                             {
-                                "label": "Farming Equipment", 
+                                "label": "Farming Equipment",
                                 "value": "craft=agricultural_engines"
-                            }, 
+                            },
                             {
-                                "label": "Gardener", 
+                                "label": "Gardener",
                                 "value": "craft=gardener"
                             }
-                        ], 
-                        "label": "Food & Agriculture", 
+                        ],
+                        "label": "Food & Agriculture",
                         "value": "food_agri"
                     }
-                ], 
-                "label": "Crafts & Services", 
+                ],
+                "label": "Crafts & Services",
                 "value": "crafts_services"
-            }, 
+            },
             {
                 "child_classifications": [
                     {
-                        "label": "College", 
+                        "label": "College",
                         "value": "amenity=college"
-                    }, 
+                    },
                     {
-                        "label": "Kindergarten", 
+                        "label": "Kindergarten",
                         "value": "amenity=kindergarten"
-                    }, 
+                    },
                     {
-                        "label": "Library", 
+                        "label": "Library",
                         "value": "amenity=library"
-                    }, 
+                    },
                     {
-                        "label": "School", 
+                        "label": "School",
                         "value": "amenity=school"
-                    }, 
+                    },
                     {
-                        "label": "University", 
+                        "label": "University",
                         "value": "amenity=university"
                     }
-                ], 
-                "label": "Education", 
+                ],
+                "label": "Education",
                 "value": "education"
-            }, 
+            },
             {
                 "child_classifications": [
                     {
-                        "label": "Archaeological Site", 
+                        "label": "Archaeological Site",
                         "value": "historic=archaeological_site"
-                    }, 
+                    },
                     {
-                        "label": "Battlefield", 
+                        "label": "Battlefield",
                         "value": "historic=battlefield"
-                    }, 
+                    },
                     {
-                        "label": "Castle", 
+                        "label": "Castle",
                         "value": "historic=castle"
-                    }, 
+                    },
                     {
-                        "label": "Fort", 
+                        "label": "Fort",
                         "value": "historic=fort"
-                    }, 
+                    },
                     {
-                        "label": "Memorial", 
+                        "label": "Memorial",
                         "value": "historic=memorial"
-                    }, 
+                    },
                     {
-                        "label": "Monument", 
+                        "label": "Monument",
                         "value": "historic=monument"
-                    }, 
+                    },
                     {
-                        "label": "Ruins", 
+                        "label": "Ruins",
                         "value": "historic=ruins"
-                    }, 
+                    },
                     {
-                        "label": "Wreck", 
+                        "label": "Wreck",
                         "value": "historic=wreck"
                     }
-                ], 
-                "label": "Historic Sites", 
+                ],
+                "label": "Historic Sites",
                 "value": "historic"
-            }, 
+            },
             {
                 "child_classifications": [
                     {
-                        "label": "Aqueduct", 
+                        "label": "Aqueduct",
                         "value": "bridge=aqueduct"
-                    }, 
+                    },
                     {
-                        "label": "Cable Box", 
+                        "label": "Cable Box",
                         "value": "power=cable_distribution_cabinet"
-                    }, 
+                    },
                     {
-                        "label": "Chimney", 
+                        "label": "Chimney",
                         "value": "man_made=chimney"
-                    }, 
+                    },
                     {
-                        "label": "Crane", 
+                        "label": "Crane",
                         "value": "man_made=crane"
-                    }, 
+                    },
                     {
-                        "label": "Factory / Manufacturing", 
+                        "label": "Factory / Manufacturing",
                         "value": "man_made=works"
-                    }, 
+                    },
                     {
-                        "label": "Flagpole", 
+                        "label": "Flagpole",
                         "value": "man_made=flagpole"
-                    }, 
+                    },
                     {
-                        "label": "Lighthouse", 
+                        "label": "Lighthouse",
                         "value": "man_made=lighthouse"
-                    }, 
+                    },
                     {
-                        "label": "Power Pole", 
+                        "label": "Power Pole",
                         "value": "power=pole"
-                    }, 
+                    },
                     {
-                        "label": "Power Station", 
+                        "label": "Power Station",
                         "value": "power=station"
-                    }, 
+                    },
                     {
-                        "label": "Power Tower", 
+                        "label": "Power Tower",
                         "value": "power=tower"
-                    }, 
+                    },
                     {
-                        "label": "Storage Tank", 
+                        "label": "Storage Tank",
                         "value": "man_made=storage_tank"
-                    }, 
+                    },
                     {
-                        "label": "Surveillance Camera", 
+                        "label": "Surveillance Camera",
                         "value": "man_made=surveillance"
-                    }, 
+                    },
                     {
-                        "label": "Tower", 
+                        "label": "Tower",
                         "value": "man_made=tower"
-                    }, 
+                    },
                     {
-                        "label": "Water Tower", 
+                        "label": "Water Tower",
                         "value": "man_made=water_tower"
-                    }, 
+                    },
                     {
-                        "label": "Water Treatment Facility", 
+                        "label": "Water Treatment Facility",
                         "value": "man_made=wastewater_plant"
-                    }, 
+                    },
                     {
-                        "label": "Well", 
+                        "label": "Well",
                         "value": "man_made=water_well"
-                    }, 
+                    },
                     {
-                        "label": "Windmill", 
+                        "label": "Windmill",
                         "value": "man_made=windmill"
                     }
-                ], 
-                "label": "Infrastructure", 
+                ],
+                "label": "Infrastructure",
                 "value": "infrastructure"
-            }, 
+            },
             {
                 "child_classifications": [
                     {
-                        "label": "Boat Launch Ramp", 
+                        "label": "Boat Launch Ramp",
                         "value": "leisure=slipway"
-                    }, 
+                    },
                     {
-                        "label": "Common Area", 
+                        "label": "Common Area",
                         "value": "leisure=common"
-                    }, 
+                    },
                     {
-                        "label": "Dance", 
+                        "label": "Dance",
                         "value": "leisure=dance"
-                    }, 
+                    },
                     {
-                        "label": "Dog Park", 
+                        "label": "Dog Park",
                         "value": "leisure=dog_park"
-                    }, 
+                    },
                     {
-                        "label": "Fishing", 
+                        "label": "Fishing",
                         "value": "leisure=fishing"
-                    }, 
+                    },
                     {
-                        "label": "Fitness Center / Gym", 
+                        "label": "Fitness Center / Gym",
                         "value": "amenity=fitness_center"
-                    }, 
+                    },
                     {
-                        "label": "Garden", 
+                        "label": "Garden",
                         "value": "leisure=garden"
-                    }, 
+                    },
                     {
-                        "label": "Golf Course", 
+                        "label": "Golf Course",
                         "value": "leisure=golf_course"
-                    }, 
+                    },
                     {
-                        "label": "Ice Rink", 
+                        "label": "Ice Rink",
                         "value": "leisure=ice_rink"
-                    }, 
+                    },
                     {
-                        "label": "Marina", 
+                        "label": "Marina",
                         "value": "leisure=marina"
-                    }, 
+                    },
                     {
-                        "label": "Miniature Golf", 
+                        "label": "Miniature Golf",
                         "value": "leisure=miniature_golf"
-                    }, 
+                    },
                     {
-                        "label": "Nature Reserve", 
+                        "label": "Nature Reserve",
                         "value": "leisure=nature_reserve"
-                    }, 
+                    },
                     {
-                        "label": "Park", 
+                        "label": "Park",
                         "value": "leisure=park"
-                    }, 
+                    },
                     {
-                        "label": "Pitch", 
+                        "label": "Pitch",
                         "value": "leisure=pitch"
-                    }, 
+                    },
                     {
-                        "label": "Playground", 
+                        "label": "Playground",
                         "value": "leisure=playground"
-                    }, 
+                    },
                     {
-                        "label": "Sports Center", 
+                        "label": "Sports Center",
                         "value": "leisure=sports_centre"
-                    }, 
+                    },
                     {
-                        "label": "Stadium", 
+                        "label": "Stadium",
                         "value": "leisure=stadium"
-                    }, 
+                    },
                     {
-                        "label": "Swimming Pool", 
+                        "label": "Swimming Pool",
                         "value": "leisure=swimming_pool"
-                    }, 
+                    },
                     {
-                        "label": "Track", 
+                        "label": "Track",
                         "value": "leisure=track"
-                    }, 
+                    },
                     {
-                        "label": "Video Arcade", 
+                        "label": "Video Arcade",
                         "value": "leisure=video_arcade"
-                    }, 
+                    },
                     {
-                        "label": "Water Park", 
+                        "label": "Water Park",
                         "value": "leisure=water_park"
                     }
-                ], 
-                "label": "Leisure & Recreation", 
+                ],
+                "label": "Leisure & Recreation",
                 "value": "leisure"
-            }, 
+            },
             {
                 "child_classifications": [
                     {
-                        "label": "Clinic", 
+                        "label": "Clinic",
                         "value": "amenity=clinic"
-                    }, 
+                    },
                     {
-                        "label": "Dentist", 
+                        "label": "Dentist",
                         "value": "amenity=dentist"
-                    }, 
+                    },
                     {
-                        "label": "Doctor", 
+                        "label": "Doctor",
                         "value": "amenity=doctors"
-                    }, 
+                    },
                     {
-                        "label": "Drug Store / Pharmacy", 
+                        "label": "Drug Store / Pharmacy",
                         "value": "amenity=pharmacy"
-                    }, 
+                    },
                     {
-                        "label": "Hospital", 
+                        "label": "Hospital",
                         "value": "amenity=hospital"
-                    }, 
+                    },
                     {
-                        "label": "Nursing Home", 
+                        "label": "Nursing Home",
                         "value": "amenity=nursing_home"
-                    }, 
+                    },
                     {
-                        "label": "Social Center", 
+                        "label": "Social Center",
                         "value": "amenity=social_facility"
-                    }, 
+                    },
                     {
-                        "label": "Veterinarian", 
+                        "label": "Veterinarian",
                         "value": "amenity=veterinary"
                     }
-                ], 
-                "label": "Medical", 
+                ],
+                "label": "Medical",
                 "value": "medical"
-            }, 
+            },
             {
                 "child_classifications": [
                     {
-                        "label": "Accountant", 
+                        "label": "Accountant",
                         "value": "office=accountant"
-                    }, 
+                    },
                     {
-                        "label": "Administrative", 
+                        "label": "Administrative",
                         "value": "office=administrative"
-                    }, 
+                    },
                     {
-                        "label": "Architect", 
+                        "label": "Architect",
                         "value": "office=architect"
-                    }, 
+                    },
                     {
-                        "label": "Corporate Office", 
+                        "label": "Corporate Office",
                         "value": "office=company"
-                    }, 
+                    },
                     {
-                        "label": "Educational Institution", 
+                        "label": "Educational Institution",
                         "value": "office=educational_institution"
-                    }, 
+                    },
                     {
-                        "label": "Employment Agency", 
+                        "label": "Employment Agency",
                         "value": "office=employment_agency"
-                    }, 
+                    },
                     {
-                        "label": "Government", 
+                        "label": "Government",
                         "value": "office=government"
-                    }, 
+                    },
                     {
-                        "label": "Insurance Agent", 
+                        "label": "Insurance Agent",
                         "value": "office=insurance"
-                    }, 
+                    },
                     {
-                        "label": "IT", 
+                        "label": "IT",
                         "value": "office=it"
-                    }, 
+                    },
                     {
-                        "label": "Lawyer / Attorney", 
+                        "label": "Lawyer / Attorney",
                         "value": "office=lawyer"
-                    }, 
+                    },
                     {
-                        "label": "Newspaper", 
+                        "label": "Newspaper",
                         "value": "office=newspaper"
-                    }, 
+                    },
                     {
-                        "label": "NGO", 
+                        "label": "NGO",
                         "value": "office=ngo"
-                    }, 
+                    },
                     {
-                        "label": "Political Party", 
+                        "label": "Political Party",
                         "value": "office=political_party"
-                    }, 
+                    },
                     {
-                        "label": "Real Estate Agent", 
+                        "label": "Real Estate Agent",
                         "value": "office=estate_agent"
-                    }, 
+                    },
                     {
-                        "label": "Research", 
+                        "label": "Research",
                         "value": "office=research"
-                    }, 
+                    },
                     {
-                        "label": "Telecommunications", 
+                        "label": "Telecommunications",
                         "value": "office=telecommunications"
-                    }, 
+                    },
                     {
-                        "label": "Travel Agent", 
+                        "label": "Travel Agent",
                         "value": "office=travel_agent"
                     }
-                ], 
-                "label": "Offices", 
+                ],
+                "label": "Offices",
                 "value": "office"
-            }, 
+            },
             {
                 "child_classifications": [
                     {
                         "child_classifications": [
                             {
-                                "label": "City", 
+                                "label": "City",
                                 "value": "place=city"
-                            }, 
+                            },
                             {
-                                "label": "Farm", 
+                                "label": "Farm",
                                 "value": "place=farm"
-                            }, 
+                            },
                             {
-                                "label": "Hamlet", 
+                                "label": "Hamlet",
                                 "value": "place=hamlet"
-                            }, 
+                            },
                             {
-                                "label": "Isolated Dwelling", 
+                                "label": "Isolated Dwelling",
                                 "value": "place=isolated_dwelling"
-                            }, 
+                            },
                             {
-                                "label": "Neighborhood", 
+                                "label": "Neighborhood",
                                 "value": "place=neighbourhood"
-                            }, 
+                            },
                             {
-                                "label": "Suburb", 
+                                "label": "Suburb",
                                 "value": "place=suburb"
-                            }, 
+                            },
                             {
-                                "label": "Town", 
+                                "label": "Town",
                                 "value": "place=town"
-                            }, 
+                            },
                             {
-                                "label": "Village", 
+                                "label": "Village",
                                 "value": "place=village"
                             }
-                        ], 
-                        "label": "Populated", 
+                        ],
+                        "label": "Populated",
                         "value": "populated_places"
-                    }, 
+                    },
                     {
                         "child_classifications": [
                             {
-                                "label": "County", 
+                                "label": "County",
                                 "value": "place=county"
-                            }, 
+                            },
                             {
-                                "label": "Island", 
+                                "label": "Island",
                                 "value": "place=island"
-                            }, 
+                            },
                             {
-                                "label": "Locality", 
+                                "label": "Locality",
                                 "value": "place=locality"
-                            }, 
+                            },
                             {
-                                "label": "Region", 
+                                "label": "Region",
                                 "value": "place=region"
                             }
-                        ], 
-                        "label": "Natural", 
+                        ],
+                        "label": "Natural",
                         "value": "natural_places"
                     }
-                ], 
-                "label": "Places", 
+                ],
+                "label": "Places",
                 "value": "places"
-            }, 
+            },
             {
                 "child_classifications": [
                     {
-                        "label": "Church / Place of Worship", 
+                        "label": "Church / Place of Worship",
                         "value": "amenity=place_of_worship"
-                    }, 
+                    },
                     {
-                        "label": "Community Center", 
+                        "label": "Community Center",
                         "value": "amenity=community_centre"
-                    }, 
+                    },
                     {
-                        "label": "Courthouse", 
+                        "label": "Courthouse",
                         "value": "amenity=courthouse"
-                    }, 
+                    },
                     {
-                        "label": "Embassy", 
+                        "label": "Embassy",
                         "value": "amenity=embassy"
-                    }, 
+                    },
                     {
-                        "label": "Fire Station", 
+                        "label": "Fire Station",
                         "value": "amenity=fire_station"
-                    }, 
+                    },
                     {
-                        "label": "Grave Yard", 
+                        "label": "Grave Yard",
                         "value": "amenity=grave_yard"
-                    }, 
+                    },
                     {
-                        "label": "Marketplace", 
+                        "label": "Marketplace",
                         "value": "amenity=marketplace"
-                    }, 
+                    },
                     {
-                        "label": "Police Station", 
+                        "label": "Police Station",
                         "value": "amenity=police"
-                    }, 
+                    },
                     {
-                        "label": "Post Office", 
+                        "label": "Post Office",
                         "value": "amenity=post_office"
-                    }, 
+                    },
                     {
-                        "label": "Prison", 
+                        "label": "Prison",
                         "value": "amenity=prison"
-                    }, 
+                    },
                     {
-                        "label": "Recycling", 
+                        "label": "Recycling",
                         "value": "amenity=recycling"
-                    }, 
+                    },
                     {
-                        "label": "Social Facility", 
+                        "label": "Social Facility",
                         "value": "amenity=social_centre"
                     }
-                ], 
-                "label": "Public Services", 
+                ],
+                "label": "Public Services",
                 "value": "public_services"
-            }, 
+            },
             {
                 "child_classifications": [
                     {
-                        "label": "BBQ", 
+                        "label": "BBQ",
                         "value": "amenity=bbq"
-                    }, 
+                    },
                     {
-                        "label": "Confectioner / Sweets", 
+                        "label": "Confectioner / Sweets",
                         "value": "craft=confectionery"
-                    }, 
+                    },
                     {
-                        "label": "Fast Food", 
+                        "label": "Fast Food",
                         "value": "amenity=fast_food"
-                    }, 
+                    },
                     {
-                        "label": "Food Court", 
+                        "label": "Food Court",
                         "value": "amenity=food_court"
-                    }, 
+                    },
                     {
-                        "label": "Ice Cream", 
+                        "label": "Ice Cream",
                         "value": "amenity=ice_cream"
-                    }, 
+                    },
                     {
-                        "label": "Restaurant", 
+                        "label": "Restaurant",
                         "value": "amenity=restaurant"
                     }
-                ], 
-                "label": "Restaurants & Dining", 
+                ],
+                "label": "Restaurants & Dining",
                 "value": "restaurant"
-            }, 
+            },
             {
                 "child_classifications": [
                     {
-                        "label": "Alcohol / Liquor Store", 
+                        "label": "Alcohol / Liquor Store",
                         "value": "shop=alcohol"
-                    }, 
+                    },
                     {
-                        "label": "Antiques", 
+                        "label": "Antiques",
                         "value": "shop=antiques"
-                    }, 
+                    },
                     {
-                        "label": "Appliances", 
+                        "label": "Appliances",
                         "value": "shop=appliance"
-                    }, 
+                    },
                     {
-                        "label": "Art Gallery", 
+                        "label": "Art Gallery",
                         "value": "shop=art"
-                    }, 
+                    },
                     {
-                        "label": "Audio", 
+                        "label": "Audio",
                         "value": "shop=hifi"
-                    }, 
+                    },
                     {
-                        "label": "Baby Store", 
+                        "label": "Baby Store",
                         "value": "shop=baby_goods"
-                    }, 
+                    },
                     {
-                        "label": "Bakery", 
+                        "label": "Bakery",
                         "value": "shop=bakery"
-                    }, 
+                    },
                     {
-                        "label": "Barber / Hairstylist", 
+                        "label": "Barber / Hairstylist",
                         "value": "shop=hairdresser"
-                    }, 
+                    },
                     {
-                        "label": "Beauty / Salon / Nails", 
+                        "label": "Beauty / Salon / Nails",
                         "value": "shop=beauty"
-                    }, 
+                    },
                     {
-                        "label": "Bed / Mattress", 
+                        "label": "Bed / Mattress",
                         "value": "shop=bed"
-                    }, 
+                    },
                     {
-                        "label": "Beverages", 
+                        "label": "Beverages",
                         "value": "shop=beverages"
-                    }, 
+                    },
                     {
-                        "label": "Bicycle Shop", 
+                        "label": "Bicycle Shop",
                         "value": "shop=bicycle"
-                    }, 
+                    },
                     {
-                        "label": "Boat Dealer", 
+                        "label": "Boat Dealer",
                         "value": "shop=boat"
-                    }, 
+                    },
                     {
-                        "label": "Book Store", 
+                        "label": "Book Store",
                         "value": "shop=books"
-                    }, 
+                    },
                     {
-                        "label": "Boutique", 
+                        "label": "Boutique",
                         "value": "shop=boutique"
-                    }, 
+                    },
                     {
-                        "label": "Butcher Shop", 
+                        "label": "Butcher Shop",
                         "value": "shop=butcher"
-                    }, 
+                    },
                     {
-                        "label": "Car Dealer", 
+                        "label": "Car Dealer",
                         "value": "shop=car"
-                    }, 
+                    },
                     {
-                        "label": "Car Parts", 
+                        "label": "Car Parts",
                         "value": "shop=car_parts"
-                    }, 
+                    },
                     {
-                        "label": "Car Repair / Mechanic", 
+                        "label": "Car Repair / Mechanic",
                         "value": "shop=car_repair"
-                    }, 
+                    },
                     {
-                        "label": "Carpet", 
+                        "label": "Carpet",
                         "value": "shop=carpet"
-                    }, 
+                    },
                     {
-                        "label": "Charity / Donations", 
+                        "label": "Charity / Donations",
                         "value": "shop=charity"
-                    }, 
+                    },
                     {
-                        "label": "Clothes", 
+                        "label": "Clothes",
                         "value": "shop=clothes"
-                    }, 
+                    },
                     {
-                        "label": "Collector", 
+                        "label": "Collector",
                         "value": "shop=collector"
-                    }, 
+                    },
                     {
-                        "label": "Computers", 
+                        "label": "Computers",
                         "value": "shop=computer"
-                    }, 
+                    },
                     {
-                        "label": "Confectionery", 
+                        "label": "Confectionery",
                         "value": "shop=confectionery"
-                    }, 
+                    },
                     {
-                        "label": "Convenience Store", 
+                        "label": "Convenience Store",
                         "value": "shop=convenience"
-                    }, 
+                    },
                     {
-                        "label": "Copy Store", 
+                        "label": "Copy Store",
                         "value": "shop=copyshop"
-                    }, 
+                    },
                     {
-                        "label": "Deli", 
+                        "label": "Deli",
                         "value": "shop=deli"
-                    }, 
+                    },
                     {
-                        "label": "Department Store", 
+                        "label": "Department Store",
                         "value": "shop=department_store"
-                    }, 
+                    },
                     {
-                        "label": "Dive Shop / Scuba", 
+                        "label": "Dive Shop / Scuba",
                         "value": "shop=scuba_diving"
-                    }, 
+                    },
                     {
-                        "label": "Dry Cleaning", 
+                        "label": "Dry Cleaning",
                         "value": "shop=dry_cleaning"
-                    }, 
+                    },
                     {
-                        "label": "Electronics", 
+                        "label": "Electronics",
                         "value": "shop=electronics"
-                    }, 
+                    },
                     {
-                        "label": "Eyeglasses / Sunglasses", 
+                        "label": "Eyeglasses / Sunglasses",
                         "value": "shop=optician"
-                    }, 
+                    },
                     {
-                        "label": "Fabric Store", 
+                        "label": "Fabric Store",
                         "value": "shop=fabric"
-                    }, 
+                    },
                     {
-                        "label": "Fishmonger", 
+                        "label": "Fishmonger",
                         "value": "shop=fishmonger"
-                    }, 
+                    },
                     {
-                        "label": "Flowers", 
+                        "label": "Flowers",
                         "value": "shop=florist"
-                    }, 
+                    },
                     {
-                        "label": "Funeral", 
+                        "label": "Funeral",
                         "value": "shop=funeral_directors"
-                    }, 
+                    },
                     {
-                        "label": "Furniture", 
+                        "label": "Furniture",
                         "value": "shop=furniture"
-                    }, 
+                    },
                     {
-                        "label": "General Store", 
+                        "label": "General Store",
                         "value": "shop=general"
-                    }, 
+                    },
                     {
-                        "label": "Gift Shop", 
+                        "label": "Gift Shop",
                         "value": "shop=gift"
-                    }, 
+                    },
                     {
-                        "label": "Grocery / Supermarket", 
+                        "label": "Grocery / Supermarket",
                         "value": "shop=supermarket"
-                    }, 
+                    },
                     {
-                        "label": "Hardware", 
+                        "label": "Hardware",
                         "value": "shop=hardware"
-                    }, 
+                    },
                     {
-                        "label": "Hearing Aids", 
+                        "label": "Hearing Aids",
                         "value": "shop=hearing_aids"
-                    }, 
+                    },
                     {
-                        "label": "Herbalist / Vitamins", 
+                        "label": "Herbalist / Vitamins",
                         "value": "shop=herbalist"
-                    }, 
+                    },
                     {
-                        "label": "Hobby", 
+                        "label": "Hobby",
                         "value": "shop=hobby"
-                    }, 
+                    },
                     {
-                        "label": "Home Improvement", 
+                        "label": "Home Improvement",
                         "value": "shop=doityourself"
-                    }, 
+                    },
                     {
-                        "label": "Household / Home Furnishing", 
+                        "label": "Household / Home Furnishing",
                         "value": "shop=household"
-                    }, 
+                    },
                     {
-                        "label": "Hunting", 
+                        "label": "Hunting",
                         "value": "shop=hunting"
-                    }, 
+                    },
                     {
-                        "label": "Hygiene & Cosmetics", 
+                        "label": "Hygiene & Cosmetics",
                         "value": "shop=chemist"
-                    }, 
+                    },
                     {
-                        "label": "Interior Decoration", 
+                        "label": "Interior Decoration",
                         "value": "shop=interior_decoration"
-                    }, 
+                    },
                     {
-                        "label": "Jewelry", 
+                        "label": "Jewelry",
                         "value": "shop=jewelry"
-                    }, 
+                    },
                     {
-                        "label": "Kiosk", 
+                        "label": "Kiosk",
                         "value": "shop=kiosk"
-                    }, 
+                    },
                     {
-                        "label": "Kitchenware", 
+                        "label": "Kitchenware",
                         "value": "shop=kitchen"
-                    }, 
+                    },
                     {
-                        "label": "Laundry", 
+                        "label": "Laundry",
                         "value": "shop=laundry"
-                    }, 
+                    },
                     {
-                        "label": "Lingerie", 
+                        "label": "Lingerie",
                         "value": "shop=erotic"
-                    }, 
+                    },
                     {
-                        "label": "Mall", 
+                        "label": "Mall",
                         "value": "shop=mall"
-                    }, 
+                    },
                     {
-                        "label": "Massage", 
+                        "label": "Massage",
                         "value": "shop=massage"
-                    }, 
+                    },
                     {
-                        "label": "Mobile Phones", 
+                        "label": "Mobile Phones",
                         "value": "shop=mobile_phones"
-                    }, 
+                    },
                     {
-                        "label": "Moneylender / Loans / Cash Advances", 
+                        "label": "Moneylender / Loans / Cash Advances",
                         "value": "shop=money_lender"
-                    }, 
+                    },
                     {
-                        "label": "Motorcycles", 
+                        "label": "Motorcycles",
                         "value": "shop=motorcycle"
-                    }, 
+                    },
                     {
-                        "label": "Music / Record Store", 
+                        "label": "Music / Record Store",
                         "value": "shop=music"
-                    }, 
+                    },
                     {
-                        "label": "Musical Instruments", 
+                        "label": "Musical Instruments",
                         "value": "shop=musical_instrument"
-                    }, 
+                    },
                     {
-                        "label": "Newspapers / Magazines", 
+                        "label": "Newspapers / Magazines",
                         "value": "shop=newsagent"
-                    }, 
+                    },
                     {
-                        "label": "Office Supplies", 
+                        "label": "Office Supplies",
                         "value": "shop=office_supplies"
-                    }, 
+                    },
                     {
-                        "label": "Organic Food", 
+                        "label": "Organic Food",
                         "value": "shop=organic"
-                    }, 
+                    },
                     {
-                        "label": "Outdoor Equipment", 
+                        "label": "Outdoor Equipment",
                         "value": "shop=outdoor"
-                    }, 
+                    },
                     {
-                        "label": "Paint", 
+                        "label": "Paint",
                         "value": "shop=paint"
-                    }, 
+                    },
                     {
-                        "label": "Pawn Shop", 
+                        "label": "Pawn Shop",
                         "value": "shop=pawnbroker"
-                    }, 
+                    },
                     {
-                        "label": "Pet Store", 
+                        "label": "Pet Store",
                         "value": "shop=pet"
-                    }, 
+                    },
                     {
-                        "label": "Produce", 
+                        "label": "Produce",
                         "value": "shop=greengrocer"
-                    }, 
+                    },
                     {
-                        "label": "Seafood Market", 
+                        "label": "Seafood Market",
                         "value": "shop=seafood"
-                    }, 
+                    },
                     {
-                        "label": "Shoe Store", 
+                        "label": "Shoe Store",
                         "value": "shop=shoes"
-                    }, 
+                    },
                     {
-                        "label": "Sports", 
+                        "label": "Sports",
                         "value": "shop=sports"
-                    }, 
+                    },
                     {
-                        "label": "Stationery", 
+                        "label": "Stationery",
                         "value": "shop=stationery"
-                    }, 
+                    },
                     {
-                        "label": "Storage Units", 
+                        "label": "Storage Units",
                         "value": "shop=storage_units"
-                    }, 
+                    },
                     {
-                        "label": "Tattoos", 
+                        "label": "Tattoos",
                         "value": "shop=tattoo"
-                    }, 
+                    },
                     {
-                        "label": "Thrift Store / Second Hand", 
+                        "label": "Thrift Store / Second Hand",
                         "value": "shop=second_hand"
-                    }, 
+                    },
                     {
-                        "label": "Tires", 
+                        "label": "Tires",
                         "value": "shop=tyres"
-                    }, 
+                    },
                     {
-                        "label": "Tobacco", 
+                        "label": "Tobacco",
                         "value": "shop=tobacco"
-                    }, 
+                    },
                     {
-                        "label": "Toys", 
+                        "label": "Toys",
                         "value": "shop=toys"
-                    }, 
+                    },
                     {
-                        "label": "Vacuum", 
+                        "label": "Vacuum",
                         "value": "shop=vacuum_cleaner"
-                    }, 
+                    },
                     {
-                        "label": "Variety Store", 
+                        "label": "Variety Store",
                         "value": "shop=variety_store"
-                    }, 
+                    },
                     {
-                        "label": "Video / Movies", 
+                        "label": "Video / Movies",
                         "value": "shop=video"
-                    }, 
+                    },
                     {
-                        "label": "Video Games", 
+                        "label": "Video Games",
                         "value": "shop=video_games"
-                    }, 
+                    },
                     {
-                        "label": "Wine", 
+                        "label": "Wine",
                         "value": "shop=wine"
                     }
-                ], 
-                "label": "Shopping", 
+                ],
+                "label": "Shopping",
                 "value": "Shopping"
-            }, 
+            },
             {
                 "child_classifications": [
                     {
-                        "label": "Artwork", 
+                        "label": "Artwork",
                         "value": "tourism=artwork"
-                    }, 
+                    },
                     {
-                        "label": "Attraction", 
+                        "label": "Attraction",
                         "value": "tourism=attraction"
-                    }, 
+                    },
                     {
-                        "label": "Camp Site", 
+                        "label": "Camp Site",
                         "value": "tourism=camp_site"
-                    }, 
+                    },
                     {
-                        "label": "Guest House", 
+                        "label": "Guest House",
                         "value": "tourism=guest_house"
-                    }, 
+                    },
                     {
-                        "label": "Hostel", 
+                        "label": "Hostel",
                         "value": "tourism=hostel"
-                    }, 
+                    },
                     {
-                        "label": "Hotel", 
+                        "label": "Hotel",
                         "value": "tourism=hotel"
-                    }, 
+                    },
                     {
-                        "label": "Information Kiosk", 
+                        "label": "Information Kiosk",
                         "value": "tourism=information"
-                    }, 
+                    },
                     {
-                        "label": "Mobile Home Park", 
+                        "label": "Mobile Home Park",
                         "value": "tourism=caravan_site"
-                    }, 
+                    },
                     {
-                        "label": "Motel", 
+                        "label": "Motel",
                         "value": "tourism=motel"
-                    }, 
+                    },
                     {
-                        "label": "Museum", 
+                        "label": "Museum",
                         "value": "tourism=museum"
-                    }, 
+                    },
                     {
-                        "label": "Picnic Site", 
+                        "label": "Picnic Site",
                         "value": "tourism=picnic_site"
-                    }, 
+                    },
                     {
-                        "label": "Theme Park", 
+                        "label": "Theme Park",
                         "value": "tourism=theme_park"
-                    }, 
+                    },
                     {
-                        "label": "Viewpoint / Overlook", 
+                        "label": "Viewpoint / Overlook",
                         "value": "tourism=viewpoint"
-                    }, 
+                    },
                     {
-                        "label": "Zoo", 
+                        "label": "Zoo",
                         "value": "tourism=zoo"
                     }
-                ], 
-                "label": "Tourism", 
+                ],
+                "label": "Tourism",
                 "value": "tourism"
-            }, 
+            },
             {
                 "child_classifications": [
                     {
                         "child_classifications": [
                             {
-                                "label": "Airport", 
+                                "label": "Airport",
                                 "value": "aeroway=aerodrome"
-                            }, 
+                            },
                             {
-                                "label": "Airport Gate", 
+                                "label": "Airport Gate",
                                 "value": "aeroway=gate"
-                            }, 
+                            },
                             {
-                                "label": "Airport Terminal", 
+                                "label": "Airport Terminal",
                                 "value": "aeroway=terminal"
-                            }, 
+                            },
                             {
-                                "label": "Helipad", 
+                                "label": "Helipad",
                                 "value": "aeroway=helipad"
                             }
-                        ], 
-                        "label": "Airports", 
+                        ],
+                        "label": "Airports",
                         "value": "airports"
-                    }, 
+                    },
                     {
-                        "label": "Bridge", 
+                        "label": "Bridge",
                         "value": "bridge=yes"
-                    }, 
+                    },
                     {
                         "child_classifications": [
                             {
-                                "label": "Bus Station", 
+                                "label": "Bus Station",
                                 "value": "public_transport=station"
-                            }, 
+                            },
                             {
-                                "label": "Bus Stop", 
+                                "label": "Bus Stop",
                                 "value": "highway=bus_stop"
                             }
-                        ], 
-                        "label": "Buses", 
+                        ],
+                        "label": "Buses",
                         "value": "buses"
-                    }, 
+                    },
                     {
                         "child_classifications": [
                             {
-                                "label": "Car Rental", 
+                                "label": "Car Rental",
                                 "value": "amenity=car_rental"
-                            }, 
+                            },
                             {
-                                "label": "Car Sharing", 
+                                "label": "Car Sharing",
                                 "value": "amenity=car_sharing"
-                            }, 
+                            },
                             {
-                                "label": "Car Wash", 
+                                "label": "Car Wash",
                                 "value": "amenity=car_wash"
                             }
-                        ], 
-                        "label": "Car Services", 
+                        ],
+                        "label": "Car Services",
                         "value": "car_services"
-                    }, 
+                    },
                     {
                         "child_classifications": [
                             {
-                                "label": "Boatyard", 
+                                "label": "Boatyard",
                                 "value": "waterway=boatyard"
-                            }, 
+                            },
                             {
-                                "label": "Dock", 
+                                "label": "Dock",
                                 "value": "waterway=dock"
-                            }, 
+                            },
                             {
-                                "label": "Ferry Terminal", 
+                                "label": "Ferry Terminal",
                                 "value": "amenity=ferry_terminal"
                             }
-                        ], 
-                        "label": "Shipping / Maritime", 
+                        ],
+                        "label": "Shipping / Maritime",
                         "value": "shipping"
-                    }, 
+                    },
                     {
-                        "label": "Electric Vehicle Charging", 
+                        "label": "Electric Vehicle Charging",
                         "value": "amenity=ev_charging"
-                    }, 
+                    },
                     {
-                        "label": "Emergency Access Point", 
+                        "label": "Emergency Access Point",
                         "value": "highway=emergency_access_point"
-                    }, 
+                    },
                     {
-                        "label": "Gas Station", 
+                        "label": "Gas Station",
                         "value": "amenity=fuel"
-                    }, 
+                    },
                     {
-                        "label": "Gate / Barrier", 
+                        "label": "Gate / Barrier",
                         "value": "barrier=gate"
-                    }, 
+                    },
                     {
                         "child_classifications": [
                             {
-                                "label": "Emergency Phone", 
+                                "label": "Emergency Phone",
                                 "value": "emergency=phone"
-                            }, 
+                            },
                             {
-                                "label": "Rest Area", 
+                                "label": "Rest Area",
                                 "value": "highway=rest_area"
-                            }, 
+                            },
                             {
-                                "label": "Services", 
+                                "label": "Services",
                                 "value": "highway=services"
-                            }, 
+                            },
                             {
-                                "label": "Speed Camera", 
+                                "label": "Speed Camera",
                                 "value": "highway=speed_camera"
-                            }, 
+                            },
                             {
-                                "label": "Toll Booth", 
+                                "label": "Toll Booth",
                                 "value": "barrier=toll_booth"
-                            }, 
+                            },
                             {
-                                "label": "Traffic Calming", 
+                                "label": "Traffic Calming",
                                 "value": "traffic_calming=yes"
                             }
-                        ], 
-                        "label": "Highway / Roadway", 
+                        ],
+                        "label": "Highway / Roadway",
                         "value": "highway"
-                    }, 
+                    },
                     {
                         "child_classifications": [
                             {
-                                "label": "Crossing", 
+                                "label": "Crossing",
                                 "value": "highway=crossing"
-                            }, 
+                            },
                             {
-                                "label": "Give Way Sign", 
+                                "label": "Give Way Sign",
                                 "value": "highway=give_way"
-                            }, 
+                            },
                             {
-                                "label": "Junction", 
+                                "label": "Junction",
                                 "value": "highway=motorway_junction"
-                            }, 
+                            },
                             {
-                                "label": "Mini Roundabout", 
+                                "label": "Mini Roundabout",
                                 "value": "highway=mini_roundabout"
-                            }, 
+                            },
                             {
-                                "label": "Stop Sign", 
+                                "label": "Stop Sign",
                                 "value": "highway=stop"
-                            }, 
+                            },
                             {
-                                "label": "Traffic Light", 
+                                "label": "Traffic Light",
                                 "value": "highway=traffic_signals"
                             }
-                        ], 
-                        "label": "Intersections", 
+                        ],
+                        "label": "Intersections",
                         "value": "intersections"
-                    }, 
+                    },
                     {
-                        "label": "Parking Lot", 
+                        "label": "Parking Lot",
                         "value": "amenity=parking"
-                    }, 
+                    },
                     {
-                        "label": "Platform", 
+                        "label": "Platform",
                         "value": "highway=platform"
-                    }, 
+                    },
                     {
                         "child_classifications": [
                             {
-                                "label": "Railway Crossing", 
+                                "label": "Railway Crossing",
                                 "value": "railway=level_crossing"
-                            }, 
+                            },
                             {
-                                "label": "Railway Station", 
+                                "label": "Railway Station",
                                 "value": "railway=station"
-                            }, 
+                            },
                             {
-                                "label": "Subway Entrance", 
+                                "label": "Subway Entrance",
                                 "value": "railway=subway_entrance"
-                            }, 
+                            },
                             {
-                                "label": "Tram Stop", 
+                                "label": "Tram Stop",
                                 "value": "railway=tram_stop"
                             }
-                        ], 
-                        "label": "Railways", 
+                        ],
+                        "label": "Railways",
                         "value": "railways"
-                    }, 
+                    },
                     {
-                        "label": "Speed Bump", 
+                        "label": "Speed Bump",
                         "value": "traffic_calming=bump"
-                    }, 
+                    },
                     {
-                        "label": "Street Lamp", 
+                        "label": "Street Lamp",
                         "value": "highway=street_lamp"
-                    }, 
+                    },
                     {
-                        "label": "Turning Circle", 
+                        "label": "Turning Circle",
                         "value": "highway=turning_circle"
-                    }, 
+                    },
                     {
-                        "label": "Viaduct", 
+                        "label": "Viaduct",
                         "value": "bridge=viaduct"
                     }
-                ], 
-                "label": "Transportation", 
+                ],
+                "label": "Transportation",
                 "value": "transportation"
             }
-        ], 
+        ],
         "name": "Pushpin OSM Types"
     }
   ]
