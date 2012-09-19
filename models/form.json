@@ -926,7 +926,7 @@
                   {
                      "_id":"4fb6c042144140674e000067",
                      "allow_other":false,
-                     "choice_list_id":"4f32c38814414014b800023f",
+                     "classification_set_id":"4fc2eaa31441401936000003",
                      "data_name":"cuisine",
                      "default_value":null,
                      "description":null,
@@ -937,7 +937,7 @@
                      "multiple":false,
                      "required":false,
                      "required_conditions_type":null,
-                     "type":"ChoiceField",
+                     "type":"ClassificationField",
                      "visible_conditions":[
                         {
                            "_id":"4fc2ecc51441401d4d000078",

@@ -268,7 +268,7 @@
       "name":"OSM Religions & Denominations"
     },
     {
-      "_id": "4fc2eaa31441401936000003",
+      "id": "4fc2eaa31441401936000003",
       "name": "OSM Cuisines",
       "description": "Cuisines for restaurants and eateries.",
       "items": [
