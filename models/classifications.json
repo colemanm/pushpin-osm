@@ -272,7 +272,7 @@
       "name": "OSM Cuisines",
       "description": "Cuisines for restaurants and eateries.",
       "items": [
-				{
+        {
           "label": "Afghan",
           "value": "cuisine=afghan"
         },
