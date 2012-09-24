@@ -276,6 +276,10 @@
           "label": "Afghan",
           "value": "cuisine=afghan"
         },
+				{
+          "label": "African",
+          "value": "cuisine=african"
+        },
         {
           "label": "American",
           "value": "cuisine=american"
@@ -284,6 +288,10 @@
           "label": "Bagels",
           "value": "cuisine=bagel"
         },
+				{
+          "label": "Balkan",
+          "value": "cuisine=balkan"
+        },
         {
           "label": "Barbecue",
           "value": "cuisine=barbecue"
@@ -291,6 +299,10 @@
         {
           "label": "Brazilian",
           "value": "cuisine=brazilian"
+        },
+				{
+          "label": "Breakfast",
+          "value": "cuisine=breakfast"
         },
         {
           "label": "Burger",
@@ -316,9 +328,17 @@
           "label": "Crepe",
           "value": "cuisine=crepe"
         },
+				{
+          "label": "Croatian",
+          "value": "cuisine=croatian"
+        },
         {
           "label": "Curry",
           "value": "cuisine=curry"
+        },
+				{
+          "label": "Deli",
+          "value": "cuisine=deli"
         },
         {
           "label": "Diner",
@@ -328,6 +348,22 @@
           "label": "Doughnut",
           "value": "cuisine=doughnut"
         },
+				{
+					"label": "Drinks / Smoothies",
+					"value": "cuisine=drinks"
+				},
+				{
+          "label": "Ethiopian",
+          "value": "cuisine=ethiopian"
+        },
+				{
+          "label": "Filipino",
+          "value": "cuisine=filipino"
+        },
+				{
+					"label": "Fish and Chips",
+					"value": "cuisine=fish_and_chips"
+				},
         {
           "label": "French",
           "value": "cuisine=french"
@@ -352,6 +388,10 @@
           "label": "Indian",
           "value": "cuisine=indian"
         },
+				{
+          "label": "Indonesian",
+          "value": "cuisine=indonesian"
+        },
         {
           "label": "Italian",
           "value": "cuisine=italian"
@@ -368,6 +408,10 @@
           "label": "Korean",
           "value": "cuisine=korean"
         },
+				{
+          "label": "Lao",
+          "value": "cuisine=lao"
+        },
         {
           "label": "Latin American",
           "value": "cuisine=latin_american"
@@ -375,6 +419,14 @@
         {
           "label": "Lebanese",
           "value": "cuisine=lebanese"
+        },
+				{
+          "label": "Malagasy",
+          "value": "cuisine=malagasy"
+        },
+				{
+          "label": "Malaysian",
+          "value": "cuisine=malaysian"
         },
         {
           "label": "Mediterranean",
@@ -404,13 +456,29 @@
           "label": "Pie",
           "value": "cuisine=pie"
         },
+				{
+          "label": "Portuguese",
+          "value": "cuisine=portuguese"
+        },
         {
           "label": "Pizza",
           "value": "cuisine=pizza"
         },
+				{
+					"label": "Regional",
+          "value": "cuisine=regional"
+				},
+				{
+					"label": "Russian",
+          "value": "cuisine=russian"
+				},
         {
           "label": "Sandwich",
           "value": "cuisine=sandwich"
+        },
+				{
+          "label": "Salad",
+          "value": "cuisine=salad"
         },
         {
           "label": "Sausage",
@@ -439,6 +507,14 @@
         {
           "label": "Thai",
           "value": "cuisine=thai"
+        },
+				{
+          "label": "Turkish",
+          "value": "cuisine=turkish"
+        },
+				{
+          "label": "Vegan",
+          "value": "cuisine=vegan"
         },
         {
           "label": "Vietnamese",
