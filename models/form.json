@@ -1445,7 +1445,7 @@
                "default_value":null,
                "description":"Add general notes about this record here.",
                "disabled":true,
-               "hidden":true,
+               "hidden":false,
                "key":"4819006f-f553-aad2-e5d6-867f2aeb06cc",
                "label":"General Notes",
                "required":false,
