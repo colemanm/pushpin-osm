@@ -1431,7 +1431,7 @@
                "default_value":null,
                "description":null,
                "disabled":true,
-               "hidden":true,
+               "hidden":false,
                "key":"2fc8e67e-2a01-77d2-3ac2-273f449091d3",
                "label":"Tags",
                "required":false,
