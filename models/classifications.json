@@ -1887,6 +1887,10 @@
                         "value": "amenity=parking"
                     },
                     {
+                        "label": "Pedestrian",
+                        "value": "highway=pedestrian"
+                    },
+                    {
                         "label": "Platform",
                         "value": "highway=platform"
                     },
