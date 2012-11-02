@@ -6,12 +6,12 @@
             "id": "509339c0a93448391300051d", 
             "items": [
                 {
-                    "label": "Apartments", 
-                    "value": "building=apartments"
-                }, 
-                {
                     "label": "Yes", 
                     "value": "building=yes"
+                }, 
+                {
+                    "label": "Apartments", 
+                    "value": "building=apartments"
                 }, 
                 {
                     "label": "Bunker", 
