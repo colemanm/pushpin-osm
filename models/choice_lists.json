@@ -1,448 +1,460 @@
 {
-  "choice_lists":[
-    {
-      "id":"4f32c38814414014b800023f",
-      "choices":[
+    "choice_lists": [
         {
-          "label":"American",
-          "value":"cuisine=american"
-        },
+            "choices": [
+                {
+                    "label": "American", 
+                    "value": "cuisine=american"
+                }, 
+                {
+                    "label": "Bagels", 
+                    "value": "cuisine=bagel"
+                }, 
+                {
+                    "label": "Barbecue", 
+                    "value": "cuisine=barbecue"
+                }, 
+                {
+                    "label": "Brazilian", 
+                    "value": "cuisine=brazilian"
+                }, 
+                {
+                    "label": "Burger", 
+                    "value": "cuisine=burger"
+                }, 
+                {
+                    "label": "Cake", 
+                    "value": "cuisine=cake"
+                }, 
+                {
+                    "label": "Chicken", 
+                    "value": "cuisine=chicken"
+                }, 
+                {
+                    "label": "Chinese", 
+                    "value": "cuisine=chinese"
+                }, 
+                {
+                    "label": "Coffee Shop", 
+                    "value": "cuisine=coffee_shop"
+                }, 
+                {
+                    "label": "Crepe", 
+                    "value": "cuisine=crepe"
+                }, 
+                {
+                    "label": "Curry", 
+                    "value": "cuisine=curry"
+                }, 
+                {
+                    "label": "Diner", 
+                    "value": "cuisine=diner"
+                }, 
+                {
+                    "label": "Doughnut", 
+                    "value": "cuisine=doughnut"
+                }, 
+                {
+                    "label": "French", 
+                    "value": "cuisine=french"
+                }, 
+                {
+                    "label": "Fried Food", 
+                    "value": "cuisine=fried_food"
+                }, 
+                {
+                    "label": "German", 
+                    "value": "cuisine=german"
+                }, 
+                {
+                    "label": "Greek", 
+                    "value": "cuisine=greek"
+                }, 
+                {
+                    "label": "Ice Cream", 
+                    "value": "cuisine=ice_cream"
+                }, 
+                {
+                    "label": "Indian", 
+                    "value": "cuisine=indian"
+                }, 
+                {
+                    "label": "Italian", 
+                    "value": "cuisine=italian"
+                }, 
+                {
+                    "label": "Japanese", 
+                    "value": "cuisine=japanese"
+                }, 
+                {
+                    "label": "Kebab", 
+                    "value": "cuisine=kebab"
+                }, 
+                {
+                    "label": "Korean", 
+                    "value": "cuisine=korean"
+                }, 
+                {
+                    "label": "Latin American", 
+                    "value": "cuisine=latin_american"
+                }, 
+                {
+                    "label": "Lebanese", 
+                    "value": "cuisine=lebanese"
+                }, 
+                {
+                    "label": "Mediterranean", 
+                    "value": "cuisine=mediterranean"
+                }, 
+                {
+                    "label": "Mexican", 
+                    "value": "cuisine=mexican"
+                }, 
+                {
+                    "label": "Middle Eastern", 
+                    "value": "cuisine=arab"
+                }, 
+                {
+                    "label": "Noodle", 
+                    "value": "cuisine=noodle"
+                }, 
+                {
+                    "label": "Pasta", 
+                    "value": "cuisine=pasta"
+                }, 
+                {
+                    "label": "Persian", 
+                    "value": "cuisine=iranian"
+                }, 
+                {
+                    "label": "Pie", 
+                    "value": "cuisine=pie"
+                }, 
+                {
+                    "label": "Pizza", 
+                    "value": "cuisine=pizza"
+                }, 
+                {
+                    "label": "Sandwich", 
+                    "value": "cuisine=sandwich"
+                }, 
+                {
+                    "label": "Sausage", 
+                    "value": "cuisine=sausage"
+                }, 
+                {
+                    "label": "Seafood", 
+                    "value": "cuisine=seafood"
+                }, 
+                {
+                    "label": "Spanish", 
+                    "value": "cuisine=spanish"
+                }, 
+                {
+                    "label": "Steak House", 
+                    "value": "cuisine=steak_house"
+                }, 
+                {
+                    "label": "Sushi", 
+                    "value": "cuisine=sushi"
+                }, 
+                {
+                    "label": "Tapas", 
+                    "value": "cuisine=tapas"
+                }, 
+                {
+                    "label": "Thai", 
+                    "value": "cuisine=thai"
+                }, 
+                {
+                    "label": "Vietnamese", 
+                    "value": "cuisine=vietnamese"
+                }
+            ], 
+            "created_at": "2012-11-02T02:20:57Z", 
+            "description": "OSM Cuisines", 
+            "id": "50932e09a93448390b0000be", 
+            "name": "OSM Cuisines", 
+            "updated_at": "2012-11-02T02:20:57Z"
+        }, 
         {
-          "label":"Bagels",
-          "value":"cuisine=bagel"
-        },
+            "choices": [
+                {
+                    "label": "Animist", 
+                    "value": "religion=animist"
+                }, 
+                {
+                    "label": "Baha'i", 
+                    "value": "religion=bahai"
+                }, 
+                {
+                    "label": "Buddhist", 
+                    "value": "religion=buddhist"
+                }, 
+                {
+                    "label": "Christian", 
+                    "value": "religion=christian"
+                }, 
+                {
+                    "label": "Hindu", 
+                    "value": "religion=hindu"
+                }, 
+                {
+                    "label": "Jain", 
+                    "value": "religion=jain"
+                }, 
+                {
+                    "label": "Jewish", 
+                    "value": "religion=jewish"
+                }, 
+                {
+                    "label": "Multifaith", 
+                    "value": "religion=multifaith"
+                }, 
+                {
+                    "label": "Muslim", 
+                    "value": "religion=muslim"
+                }, 
+                {
+                    "label": "Pagan", 
+                    "value": "religion=pagan"
+                }, 
+                {
+                    "label": "Scientologist", 
+                    "value": "religion=scientologist"
+                }, 
+                {
+                    "label": "Shinto", 
+                    "value": "religion=shinto"
+                }, 
+                {
+                    "label": "Sikh", 
+                    "value": "religion=sikh"
+                }, 
+                {
+                    "label": "Spiritualist", 
+                    "value": "religion=spiritualist"
+                }, 
+                {
+                    "label": "Taoist", 
+                    "value": "religion=taoist"
+                }, 
+                {
+                    "label": "Unitarian", 
+                    "value": "religion=unitarian"
+                }, 
+                {
+                    "label": "Zoroastrian", 
+                    "value": "religion=zoroastrian"
+                }
+            ], 
+            "created_at": "2012-11-02T02:21:36Z", 
+            "description": "List of religions for tagging places of worship.", 
+            "id": "50932e30a93448390b0000eb", 
+            "name": "OSM Religions", 
+            "updated_at": "2012-11-02T02:21:36Z"
+        }, 
         {
-          "label":"Barbecue",
-          "value":"cuisine=barbecue"
-        },
+            "choices": [
+                {
+                    "label": "Archery", 
+                    "value": "sport=archery"
+                }, 
+                {
+                    "label": "Badminton", 
+                    "value": "sport=badminton"
+                }, 
+                {
+                    "label": "Baseball", 
+                    "value": "sport=baseball"
+                }, 
+                {
+                    "label": "Basketball", 
+                    "value": "sport=basketball"
+                }, 
+                {
+                    "label": "Beach Volleyball", 
+                    "value": "sport=beachvolleyball"
+                }, 
+                {
+                    "label": "BMX", 
+                    "value": "sport=bmx"
+                }, 
+                {
+                    "label": "Bowling", 
+                    "value": "sport=10pin"
+                }, 
+                {
+                    "label": "Canoeing", 
+                    "value": "sport=canoe"
+                }, 
+                {
+                    "label": "Cricket", 
+                    "value": "sport=cricket"
+                }, 
+                {
+                    "label": "Cycling", 
+                    "value": "sport=cycling"
+                }, 
+                {
+                    "label": "Diving", 
+                    "value": "sport=diving"
+                }, 
+                {
+                    "label": "Dog Racing", 
+                    "value": "sport=dog_racing"
+                }, 
+                {
+                    "label": "Football", 
+                    "value": "sport=american_football"
+                }, 
+                {
+                    "label": "Golf", 
+                    "value": "sport=golf"
+                }, 
+                {
+                    "label": "Gymnastics", 
+                    "value": "sport=gymnastics"
+                }, 
+                {
+                    "label": "Hockey", 
+                    "value": "sport=hockey"
+                }, 
+                {
+                    "label": "Horseshoes", 
+                    "value": "sport=horseshoes"
+                }, 
+                {
+                    "label": "Multipurpose", 
+                    "value": "sport=multi"
+                }, 
+                {
+                    "label": "Raceway", 
+                    "value": "sport=motor"
+                }, 
+                {
+                    "label": "Racquetball", 
+                    "value": "sport=racquet"
+                }, 
+                {
+                    "label": "Rugby League", 
+                    "value": "sport=rugby_league"
+                }, 
+                {
+                    "label": "Rugby Union", 
+                    "value": "sport=rugby_union"
+                }, 
+                {
+                    "label": "Shooting", 
+                    "value": "sport=shooting"
+                }, 
+                {
+                    "label": "Skateboarding", 
+                    "value": "sport=skateboard"
+                }, 
+                {
+                    "label": "Skating", 
+                    "value": "sport=skating"
+                }, 
+                {
+                    "label": "Skiing", 
+                    "value": "sport=skiing"
+                }, 
+                {
+                    "label": "Soccer", 
+                    "value": "sport=soccer"
+                }, 
+                {
+                    "label": "Surfing", 
+                    "value": "sport=surfing"
+                }, 
+                {
+                    "label": "Swimming", 
+                    "value": "sport=swimming"
+                }, 
+                {
+                    "label": "Table Tennis", 
+                    "value": "sport=table_tennis"
+                }, 
+                {
+                    "label": "Team Handball", 
+                    "value": "sport=team_handball"
+                }, 
+                {
+                    "label": "Tennis", 
+                    "value": "sport=tennis"
+                }, 
+                {
+                    "label": "Toboggan", 
+                    "value": "sport=toboggan"
+                }, 
+                {
+                    "label": "Track & Field", 
+                    "value": "sport=athletics"
+                }, 
+                {
+                    "label": "Volleyball", 
+                    "value": "sport=volleyball"
+                }, 
+                {
+                    "label": "Water Skiing", 
+                    "value": "sport=water_ski"
+                }
+            ], 
+            "created_at": "2012-11-02T02:22:09Z", 
+            "description": "List of sports for tagging sporting venues.", 
+            "id": "50932e51a93448390e000185", 
+            "name": "OSM Sports", 
+            "updated_at": "2012-11-02T02:22:09Z"
+        }, 
         {
-          "label":"Brazilian",
-          "value":"cuisine=brazilian"
-        },
-        {
-          "label":"Burger",
-          "value":"cuisine=burger"
-        },
-        {
-          "label":"Cake",
-          "value":"cuisine=cake"
-        },
-        {
-          "label":"Chicken",
-          "value":"cuisine=chicken"
-        },
-        {
-          "label":"Chinese",
-          "value":"cuisine=chinese"
-        },
-        {
-          "label":"Coffee Shop",
-          "value":"cuisine=coffee_shop"
-        },
-        {
-          "label":"Crepe",
-          "value":"cuisine=crepe"
-        },
-        {
-          "label":"Curry",
-          "value":"cuisine=curry"
-        },
-        {
-          "label":"Diner",
-          "value":"cuisine=diner"
-        },
-        {
-          "label":"Doughnut",
-          "value":"cuisine=doughnut"
-        },
-        {
-          "label":"French",
-          "value":"cuisine=french"
-        },
-        {
-          "label":"Fried Food",
-          "value":"cuisine=fried_food"
-        },
-        {
-          "label":"German",
-          "value":"cuisine=german"
-        },
-        {
-          "label":"Greek",
-          "value":"cuisine=greek"
-        },
-        {
-          "label":"Ice Cream",
-          "value":"cuisine=ice_cream"
-        },
-        {
-          "label":"Indian",
-          "value":"cuisine=indian"
-        },
-        {
-          "label":"Italian",
-          "value":"cuisine=italian"
-        },
-        {
-          "label":"Japanese",
-          "value":"cuisine=japanese"
-        },
-        {
-          "label":"Kebab",
-          "value":"cuisine=kebab"
-        },
-        {
-          "label":"Korean",
-          "value":"cuisine=korean"
-        },
-        {
-          "label":"Latin American",
-          "value":"cuisine=latin_american"
-        },
-        {
-          "label":"Lebanese",
-          "value":"cuisine=lebanese"
-        },
-        {
-          "label":"Mediterranean",
-          "value":"cuisine=mediterranean"
-        },
-        {
-          "label":"Mexican",
-          "value":"cuisine=mexican"
-        },
-        {
-          "label":"Middle Eastern",
-          "value":"cuisine=arab"
-        },
-        {
-          "label":"Noodle",
-          "value":"cuisine=noodle"
-        },
-        {
-          "label":"Pasta",
-          "value":"cuisine=pasta"
-        },
-        {
-          "label":"Persian",
-          "value":"cuisine=iranian"
-        },
-        {
-          "label":"Pie",
-          "value":"cuisine=pie"
-        },
-        {
-          "label":"Pizza",
-          "value":"cuisine=pizza"
-        },
-        {
-          "label":"Sandwich",
-          "value":"cuisine=sandwich"
-        },
-        {
-          "label":"Sausage",
-          "value":"cuisine=sausage"
-        },
-        {
-          "label":"Seafood",
-          "value":"cuisine=seafood"
-        },
-        {
-          "label":"Spanish",
-          "value":"cuisine=spanish"
-        },
-        {
-          "label":"Steak House",
-          "value":"cuisine=steak_house"
-        },
-        {
-          "label":"Sushi",
-          "value":"cuisine=sushi"
-        },
-        {
-          "label":"Tapas",
-          "value":"cuisine=tapas"
-        },
-        {
-          "label":"Thai",
-          "value":"cuisine=thai"
-        },
-        {
-          "label":"Vietnamese",
-          "value":"cuisine=vietnamese"
+            "choices": [
+                {
+                    "label": "Cigarettes", 
+                    "value": "vending=cigarettes"
+                }, 
+                {
+                    "label": "Drinks", 
+                    "value": "vending=drinks"
+                }, 
+                {
+                    "label": "Electronics", 
+                    "value": "vending=electronics"
+                }, 
+                {
+                    "label": "Food", 
+                    "value": "vending=food"
+                }, 
+                {
+                    "label": "Newspapers & Magazines", 
+                    "value": "vending=newspapers"
+                }, 
+                {
+                    "label": "Parking Tickets & Tokens", 
+                    "value": "vending=parking_tickets"
+                }, 
+                {
+                    "label": "Public Transport Tickets", 
+                    "value": "vending=public_transport_tickets"
+                }, 
+                {
+                    "label": "Stamps", 
+                    "value": "vending=stamps"
+                }, 
+                {
+                    "label": "Sweets & Candy", 
+                    "value": "vending=sweets"
+                }
+            ], 
+            "created_at": "2012-11-02T02:22:42Z", 
+            "description": "List of merchandise for sale in vending machines.", 
+            "id": "50932e72a934483923000060", 
+            "name": "OSM Vending Contents", 
+            "updated_at": "2012-11-02T02:22:42Z"
         }
-      ],
-      "description":"OSM Cuisines",
-      "name":"OSM Cuisines"
-    },
-    {
-      "id":"4fc2e0741441406a79000005",
-      "choices":[
-        {
-          "label":"Animist",
-          "value":"religion=animist"
-        },
-        {
-          "label":"Baha'i",
-          "value":"religion=bahai"
-        },
-        {
-          "label":"Buddhist",
-          "value":"religion=buddhist"
-        },
-        {
-          "label":"Christian",
-          "value":"religion=christian"
-        },
-        {
-          "label":"Hindu",
-          "value":"religion=hindu"
-        },
-        {
-          "label":"Jain",
-          "value":"religion=jain"
-        },
-        {
-          "label":"Jewish",
-          "value":"religion=jewish"
-        },
-        {
-          "label":"Multifaith",
-          "value":"religion=multifaith"
-        },
-        {
-          "label":"Muslim",
-          "value":"religion=muslim"
-        },
-        {
-          "label":"Pagan",
-          "value":"religion=pagan"
-        },
-        {
-          "label":"Scientologist",
-          "value":"religion=scientologist"
-        },
-        {
-          "label":"Shinto",
-          "value":"religion=shinto"
-        },
-        {
-          "label":"Sikh",
-          "value":"religion=sikh"
-        },
-        {
-          "label":"Spiritualist",
-          "value":"religion=spiritualist"
-        },
-        {
-          "label":"Taoist",
-          "value":"religion=taoist"
-        },
-        {
-          "label":"Unitarian",
-          "value":"religion=unitarian"
-        },
-        {
-          "label":"Zoroastrian",
-          "value":"religion=zoroastrian"
-        }
-      ],
-      "description":"List of religions for tagging places of worship.",
-      "name":"OSM Religions"
-    },
-    {
-      "id":"4f8cd64c1441404dbf000002",
-      "choices":[
-        {
-          "label":"Archery",
-          "value":"sport=archery"
-        },
-        {
-          "label":"Badminton",
-          "value":"sport=badminton"
-        },
-        {
-          "label":"Baseball",
-          "value":"sport=baseball"
-        },
-        {
-          "label":"Basketball",
-          "value":"sport=basketball"
-        },
-        {
-          "label":"Beach Volleyball",
-          "value":"sport=beachvolleyball"
-        },
-        {
-          "label":"BMX",
-          "value":"sport=bmx"
-        },
-        {
-          "label":"Bowling",
-          "value":"sport=10pin"
-        },
-        {
-          "label":"Canoeing",
-          "value":"sport=canoe"
-        },
-        {
-          "label":"Cricket",
-          "value":"sport=cricket"
-        },
-        {
-          "label":"Cycling",
-          "value":"sport=cycling"
-        },
-        {
-          "label":"Diving",
-          "value":"sport=diving"
-        },
-        {
-          "label":"Dog Racing",
-          "value":"sport=dog_racing"
-        },
-        {
-          "label":"Football",
-          "value":"sport=american_football"
-        },
-        {
-          "label":"Golf",
-          "value":"sport=golf"
-        },
-        {
-          "label":"Gymnastics",
-          "value":"sport=gymnastics"
-        },
-        {
-          "label":"Hockey",
-          "value":"sport=hockey"
-        },
-        {
-          "label":"Horseshoes",
-          "value":"sport=horseshoes"
-        },
-        {
-          "label":"Multipurpose",
-          "value":"sport=multi"
-        },
-        {
-          "label":"Raceway",
-          "value":"sport=motor"
-        },
-        {
-          "label":"Racquetball",
-          "value":"sport=racquet"
-        },
-        {
-          "label":"Rugby League",
-          "value":"sport=rugby_league"
-        },
-        {
-          "label":"Rugby Union",
-          "value":"sport=rugby_union"
-        },
-        {
-          "label":"Shooting",
-          "value":"sport=shooting"
-        },
-        {
-          "label":"Skateboarding",
-          "value":"sport=skateboard"
-        },
-        {
-          "label":"Skating",
-          "value":"sport=skating"
-        },
-        {
-          "label":"Skiing",
-          "value":"sport=skiing"
-        },
-        {
-          "label":"Soccer",
-          "value":"sport=soccer"
-        },
-        {
-          "label":"Surfing",
-          "value":"sport=surfing"
-        },
-        {
-          "label":"Swimming",
-          "value":"sport=swimming"
-        },
-        {
-          "label":"Table Tennis",
-          "value":"sport=table_tennis"
-        },
-        {
-          "label":"Team Handball",
-          "value":"sport=team_handball"
-        },
-        {
-          "label":"Tennis",
-          "value":"sport=tennis"
-        },
-        {
-          "label":"Toboggan",
-          "value":"sport=toboggan"
-        },
-        {
-          "label":"Track & Field",
-          "value":"sport=athletics"
-        },
-        {
-          "label":"Volleyball",
-          "value":"sport=volleyball"
-        },
-        {
-          "label":"Water Skiing",
-          "value":"sport=water_ski"
-        }
-      ],
-      "description":"List of sports for tagging sporting venues.",
-      "name":"OSM Sports"
-    },
-    {
-      "id":"4f8ce995144140558c0002d6",
-      "choices":[
-        {
-          "label":"Cigarettes",
-          "value":"vending=cigarettes"
-        },
-        {
-          "label":"Drinks",
-          "value":"vending=drinks"
-        },
-        {
-          "label":"Electronics",
-          "value":"vending=electronics"
-        },
-        {
-          "label":"Food",
-          "value":"vending=food"
-        },
-        {
-          "label":"Newspapers & Magazines",
-          "value":"vending=newspapers"
-        },
-        {
-          "label":"Parking Tickets & Tokens",
-          "value":"vending=parking_tickets"
-        },
-        {
-          "label":"Public Transport Tickets",
-          "value":"vending=public_transport_tickets"
-        },
-        {
-          "label":"Stamps",
-          "value":"vending=stamps"
-        },
-        {
-          "label":"Sweets & Candy",
-          "value":"vending=sweets"
-        }
-      ],
-      "description":"List of merchandise for sale in vending machines.",
-      "name":"OSM Vending Contents"
-    }
-  ]
+    ], 
+    "current_page": 1, 
+    "per_page": 50, 
+    "total_count": 4, 
+    "total_pages": 1
 }

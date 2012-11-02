@@ -1,0 +1,5 @@
+#!/bin/sh
+
+curl -s -H "X-ApiToken: c99aacff8ea36b5c2a1d6f09a65532563f394e7552c39d7a5ce40236f3083225" http://web.fulcrumapp.com/api/v2/classification_sets.json | python -mjson.tool > models/classifications.json
+curl -s -H "X-ApiToken: c99aacff8ea36b5c2a1d6f09a65532563f394e7552c39d7a5ce40236f3083225" http://web.fulcrumapp.com/api/v2/choice_lists.json | python -mjson.tool > models/choice_lists.json
+curl -s -H "X-ApiToken: c99aacff8ea36b5c2a1d6f09a65532563f394e7552c39d7a5ce40236f3083225" http://web.fulcrumapp.com/api/v2/forms.json | python -mjson.tool > models/form.json
