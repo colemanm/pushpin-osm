@@ -58,6 +58,42 @@
                     "disabled": false, 
                     "elements": [
                         {
+                            "data_name": "building_height_in_meters", 
+                            "disabled": false, 
+                            "hidden": false, 
+                            "key": "56dcc60a-39db-7524-6a7c-20bb3ddc2443", 
+                            "label": "Building Height (in meters)", 
+                            "numeric": true, 
+                            "required": false, 
+                            "type": "TextField", 
+                            "visible_conditions": [
+                                {
+                                    "field_key": "3317dcc6-860d-3b81-0d30-18668c54b740", 
+                                    "operator": "is_not_empty", 
+                                    "value": ""
+                                }
+                            ], 
+                            "visible_conditions_type": "all"
+                        }, 
+                        {
+                            "data_name": "number_of_floors", 
+                            "disabled": false, 
+                            "hidden": false, 
+                            "key": "51cabbd1-d003-1a81-a0d2-f0abd518d75d", 
+                            "label": "Number of Floors", 
+                            "numeric": true, 
+                            "required": false, 
+                            "type": "TextField", 
+                            "visible_conditions": [
+                                {
+                                    "field_key": "3317dcc6-860d-3b81-0d30-18668c54b740", 
+                                    "operator": "is_not_empty", 
+                                    "value": ""
+                                }
+                            ], 
+                            "visible_conditions_type": "all"
+                        }, 
+                        {
                             "data_name": "operator", 
                             "disabled": false, 
                             "hidden": false, 

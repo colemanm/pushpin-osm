@@ -14,12 +14,20 @@
                     "value": "building=apartments"
                 }, 
                 {
+                    "label": "Barn", 
+                    "value": "building=barn"
+                }, 
+                {
                     "label": "Bunker", 
                     "value": "building=bunker"
                 }, 
                 {
                     "label": "Cabin", 
                     "value": "building=cabin"
+                }, 
+                {
+                    "label": "Carport", 
+                    "value": "building=carport"
                 }, 
                 {
                     "label": "Cathedral", 
@@ -34,6 +42,10 @@
                     "value": "building=civic"
                 }, 
                 {
+                    "label": "Collapsed", 
+                    "value": "building=collapsed"
+                }, 
+                {
                     "label": "Commercial", 
                     "value": "building=commercial"
                 }, 
@@ -42,8 +54,24 @@
                     "value": "building=construction"
                 }, 
                 {
+                    "label": "Detached", 
+                    "value": "building=detached"
+                }, 
+                {
                     "label": "Dormitory", 
                     "value": "building=dormitory"
+                }, 
+                {
+                    "label": "Factory", 
+                    "value": "building=factory"
+                }, 
+                {
+                    "label": "Farm", 
+                    "value": "building=farm"
+                }, 
+                {
+                    "label": "Farm Auxilary", 
+                    "value": "building=farm_auxiliary"
                 }, 
                 {
                     "label": "Garage", 
@@ -82,6 +110,10 @@
                     "value": "building=industrial"
                 }, 
                 {
+                    "label": "Manufacturing", 
+                    "value": "building=manufacture"
+                }, 
+                {
                     "label": "Residential", 
                     "value": "building=residential"
                 }, 
@@ -98,8 +130,24 @@
                     "value": "building=school"
                 }, 
                 {
+                    "label": "Service", 
+                    "value": "building=service"
+                }, 
+                {
                     "label": "Shed", 
                     "value": "building=shed"
+                }, 
+                {
+                    "label": "Shop", 
+                    "value": "building=shop"
+                }, 
+                {
+                    "label": "Storage", 
+                    "value": "building=storage"
+                }, 
+                {
+                    "label": "Store", 
+                    "value": "building=store"
                 }, 
                 {
                     "label": "Terrace", 
