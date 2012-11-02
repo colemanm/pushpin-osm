@@ -1281,6 +1281,56 @@
                 {
                     "child_classifications": [
                         {
+                            "label": "Beach", 
+                            "value": "natural=beach"
+                        }, 
+                        {
+                            "label": "Cliff", 
+                            "value": "natural=cliff"
+                        }, 
+                        {
+                            "label": "Peak", 
+                            "value": "natural=peak"
+                        }, 
+                        {
+                            "label": "Sand", 
+                            "value": "natural=sand"
+                        }, 
+                        {
+                            "label": "Sinkhole", 
+                            "value": "natural=sinkhole"
+                        }, 
+                        {
+                            "label": "Spring", 
+                            "value": "natural=spring"
+                        }, 
+                        {
+                            "label": "Stone", 
+                            "value": "natural=stone"
+                        }, 
+                        {
+                            "label": "Tree", 
+                            "value": "natural=tree"
+                        }, 
+                        {
+                            "label": "Water", 
+                            "value": "natural=water"
+                        }, 
+                        {
+                            "label": "Wetland", 
+                            "value": "natural=wetland"
+                        }, 
+                        {
+                            "label": "Wood", 
+                            "value": "natural=wood"
+                        }
+                    ], 
+                    "label": "Natural", 
+                    "value": "natural"
+                }, 
+                {
+                    "child_classifications": [
+                        {
                             "label": "Accountant", 
                             "value": "office=accountant"
                         }, 
