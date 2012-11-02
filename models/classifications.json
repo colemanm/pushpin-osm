@@ -295,6 +295,10 @@
                     "value": "cuisine=indonesian"
                 }, 
                 {
+                    "label": "Irish", 
+                    "value": "cuisine=irish"
+                }, 
+                {
                     "label": "Italian", 
                     "value": "cuisine=italian"
                 }, 
@@ -707,11 +711,11 @@
                             "value": "amenity=toilets"
                         }, 
                         {
-                            "label": "Bike Racks", 
+                            "label": "Bike Racks (Bicycles)", 
                             "value": "amenity=bicycle_parking"
                         }, 
                         {
-                            "label": "Bike Rental", 
+                            "label": "Bike Rental (Bicycles)", 
                             "value": "amenity=bicycle_rental"
                         }, 
                         {
@@ -729,6 +733,10 @@
                         {
                             "label": "Post Box", 
                             "value": "amenity=post_box"
+                        }, 
+                        {
+                            "label": "Shelter", 
+                            "value": "amenity=shelter"
                         }, 
                         {
                             "label": "Vending Machine", 
@@ -1413,6 +1421,14 @@
                 {
                     "child_classifications": [
                         {
+                            "label": "Animal Boarding", 
+                            "value": "amenity=animal_boarding"
+                        }, 
+                        {
+                            "label": "Animal Shelter", 
+                            "value": "amenity=animal_shelter"
+                        }, 
+                        {
                             "label": "Church / Place of Worship", 
                             "value": "amenity=place_of_worship"
                         }, 
@@ -1785,6 +1801,10 @@
                             "value": "shop=shoes"
                         }, 
                         {
+                            "label": "Signs", 
+                            "value": "shop=signs"
+                        }, 
+                        {
                             "label": "Sports", 
                             "value": "shop=sports"
                         }, 
@@ -1921,6 +1941,10 @@
                                 {
                                     "label": "Helipad", 
                                     "value": "aeroway=helipad"
+                                }, 
+                                {
+                                    "label": "Airport Ramp / Apron", 
+                                    "value": "aeroway=apron"
                                 }
                             ], 
                             "label": "Airports", 
@@ -2057,8 +2081,22 @@
                             "value": "intersections"
                         }, 
                         {
-                            "label": "Parking Lot", 
-                            "value": "amenity=parking"
+                            "child_classifications": [
+                                {
+                                    "label": "Parking Lot", 
+                                    "value": "amenity=parking"
+                                }, 
+                                {
+                                    "label": "Parking Entrance", 
+                                    "value": "amenity=parking_entrance"
+                                }, 
+                                {
+                                    "label": "Parking Space", 
+                                    "value": "amenity=parking_space"
+                                }
+                            ], 
+                            "label": "Parking", 
+                            "value": "parking"
                         }, 
                         {
                             "label": "Pedestrian", 
@@ -2097,6 +2135,10 @@
                         {
                             "label": "Street Lamp", 
                             "value": "highway=street_lamp"
+                        }, 
+                        {
+                            "label": "Taxi", 
+                            "value": "amenity=taxi"
                         }, 
                         {
                             "label": "Turning Circle", 

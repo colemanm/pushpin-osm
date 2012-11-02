@@ -58,7 +58,53 @@
                     "disabled": false, 
                     "elements": [
                         {
+                            "allow_other": false, 
+                            "choices": [
+                                {
+                                    "label": "Hut", 
+                                    "value": "shelter_type=basic_hut"
+                                }, 
+                                {
+                                    "label": "Lean-to", 
+                                    "value": "shelter_type=lean_to"
+                                }, 
+                                {
+                                    "label": "Picnic Shelter", 
+                                    "value": "shelter_type=picnic_shelter"
+                                }, 
+                                {
+                                    "label": "Public Transport", 
+                                    "value": "shelter_type=public_transport"
+                                }, 
+                                {
+                                    "label": "Rock Shelter", 
+                                    "value": "shelter_type=rock_shelter"
+                                }, 
+                                {
+                                    "label": "Weather Shelter", 
+                                    "value": "shelter_type=weather_shelter"
+                                }
+                            ], 
+                            "data_name": "shelter_type", 
+                            "disabled": false, 
+                            "hidden": false, 
+                            "key": "7c59d9dd-4c42-7d51-03ab-414caad99572", 
+                            "label": "Shelter Type", 
+                            "multiple": false, 
+                            "required": false, 
+                            "type": "ChoiceField", 
+                            "visible_conditions": [
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "amenities_outdoor,amenity=shelter"
+                                }
+                            ], 
+                            "visible_conditions_type": "all"
+                        }, 
+                        {
                             "data_name": "building_height_in_meters", 
+                            "description": "The key height describes the actual height of a feature. By default, values will be interpreted as meters. If the height should be specified in a different unit, the unit can be added to the end of the value, separated by a space. The value should always use the dot as decimal separator, if needed.\n\nFor ways or areas in which height varies, a average height can be specified.\n\n== Height of buildings ==\n\nFor buildings not the average height, but the maximum height should be specified, i.e. the height of the top edge of the building.\n\nMore info: http://wiki.openstreetmap.org/wiki/Key:height", 
                             "disabled": false, 
                             "hidden": false, 
                             "key": "56dcc60a-39db-7524-6a7c-20bb3ddc2443", 
@@ -95,6 +141,7 @@
                         }, 
                         {
                             "data_name": "operator", 
+                            "description": "The operator tag is used to name a company, corporation, person or any other entity who is in charge of the operation of a certain map object.\n\nOften it's useful to describe that a certain map object \"belongs\" to a company or corporation in any way. For example: With the emerging of private postal service providers, it may be of interest for the map user which postal services provider operates a certain post_box.\n\nWhen choosing the appropriate value it is beneficial to use exactly the same text, including capitalization across all entries. The title of the associated Wikipedia article for the same organization may be useful as a reference.", 
                             "disabled": false, 
                             "hidden": false, 
                             "key": "6a12e3b2-f030-b429-0c47-6675329f1c6f", 
@@ -214,7 +261,7 @@
                                 }
                             ], 
                             "data_name": "wheelchair", 
-                            "description": "Is it wheelchair accessible?", 
+                            "description": "Is it wheelchair accessible?\n\nThis tag may be used to mark places or ways that are suitable to be used with a wheelchair. It should only be used if you are sure about it. This can either be because there's a special sign or because of personal experience/someone with a wheelchair told you. There are also a lot of other Tags that can help to determine if the way is suitable for wheelchairs.", 
                             "disabled": false, 
                             "hidden": false, 
                             "key": "e78bf83a-752c-7b31-efb7-fddda55af8d0", 
@@ -350,7 +397,7 @@
                             "data_name": "fuel_types", 
                             "description": "What specific fuel types are available?", 
                             "disabled": false, 
-                            "hidden": false, 
+                            "hidden": true, 
                             "key": "e25596f8-9d91-f471-5617-d484c7923e5c", 
                             "label": "Fuel Types", 
                             "multiple": true, 
@@ -412,7 +459,7 @@
                                 }
                             ], 
                             "data_name": "internet_access", 
-                            "description": "Is there internet access at the venue?", 
+                            "description": "Is there public internet access at the venue?\n\nThis tag is for indication that a map entity such as a building, a shop, restaurant, etc. offers internet access to the public, either as a paid service or even for free.\n\nThis tag could be used for:\n\u2022 Internet cafes\n\u2022 Shops which offer internet as service\n\u2022 Libraries which offer internet access\n\u2022 Hotels, hostels or other accomodation with internet\n\u2022 open spaces like squares or streets with public WLAN hotspots.\n\nThis tag should NOT be used for:\nEvery internet access which is only for members or private persons, and not offered to the general public. This includes your personal home DSL, LAN, WLAN, any internal networks of companies etc. Also internet access only for students (e.g. WLAN hotspots on the campus) should not be tagged, because this is not a public service and the people who have access rights already know about it. We know the internet is everywhere (or should be), but this tag's aim is to indicate locations where you can get online access just by paying some amount of money (or nothing), with no further efforts needed.", 
                             "disabled": false, 
                             "hidden": false, 
                             "key": "f1477d45-91bf-d54e-18e6-62c641a93083", 
@@ -505,6 +552,7 @@
                                 }
                             ], 
                             "data_name": "drive_through", 
+                            "description": "To indicate if an amenity or shop offers a drive-through (also drive-thru) service, ie it is possible to use it without leaving your vehicle. Examples include pharmacies, banks, ATMs, fast food outlets, post boxes or bottle shops.", 
                             "disabled": false, 
                             "hidden": false, 
                             "key": "c523c7ee-0aca-a1d8-f991-6fc8f0627e9d", 
@@ -1034,6 +1082,17 @@
                             "type": "TextField"
                         }, 
                         {
+                            "data_name": "unit_suite", 
+                            "description": "While a big building could have only one entrance, sometimes the way inside divides into different units or staircases, where certain apartments/flats/offices can only be reached though a specific unit. An information necessary for postmen, for example.", 
+                            "disabled": false, 
+                            "hidden": false, 
+                            "key": "41d6153a-ebf7-6b38-ad18-dbfdc09745b7", 
+                            "label": "Unit / Suite", 
+                            "numeric": false, 
+                            "required": false, 
+                            "type": "TextField"
+                        }, 
+                        {
                             "data_name": "addr:street", 
                             "disabled": false, 
                             "hidden": false, 
@@ -1135,7 +1194,19 @@
                             "type": "TextField"
                         }, 
                         {
+                            "data_name": "opening_hours", 
+                            "description": "Examples\nopening_hours=24/7\napplied to: any non-stop facilities (related tags), 24 hours 7 days a week\nrender on map: someting like object icon with a 24\nopening_hours=Sa-Su 00:00-24:00\napplied to: opens only the weekend but nonstop, 24h\nopening_hours=Mo-Fr 08:30-20:00 or for more complex opening hours:\nopening_hours=Mo 10:00-12:00,12:30-15:00; Tu-Fr 08:00-12:00,12:30-15:00; Sa 08:00-12:00\nopening_hours=Mo-Su 08:00-18:00; Apr 10-15 off; Jun 08:00-14:00; Aug off; Dec 25 off\napplied to: any facilities with opening hours (related tags)\nrender on map: nothing, info recovered by software\nopening_hours=Mo-Sa 10:00-20:00; Tu off or opening_hours=Mo-Sa 10:00-20:00; Tu 10:00-14:00\nfor exceptions in a range of days\napplied to: any facilities with opening hours (related tags)\nrender on map: nothing, info recovered by software\nopening_hours=sunrise-sunset\napplied to: opens every day between sunrise and sunset.\nuse round brackets to add a time offset, for example a park that opens 2 hours after sunrise and closes 2 hours before sunset (sunrise+02:00)-(sunset-02:00)\nopening_hours=Su 10:00+\nSunday from 10:00 to open end or unknown closing time\napplied to: any facilities with opening hours (related tags)\nrender on map: nothing, info recovered by software\nopening_hours=week 1-53/2 Fr 09:00-12:00, week 2-52/2 We 09:00-12:00\nopen from 09:00 to 12:00 on fridays of odd weeks and on wednesdays of even weeks\napplied to: any facilities with opening hours (related tags)\nrender on map: nothing, info recovered by software\n[edit] Syntax\nwd weekday, available: Mo \u00b7 Tu \u00b7 We \u00b7 Th \u00b7 Fr \u00b7 Sa \u00b7 Su (e.g., > Fr 08:30-20:00)\nhh hour, always two digits number in 24h basis (no am/pm), in the format \"hh:mm\" \u00b7 (e.g., > Fr 08:30-20:00)\nmm minute, always two digits number in the format \"hh:mm\" (e.g., > Fr 08:30-20:00)\nmo month, available: Jan \u00b7 Feb \u00b7 Mar \u00b7 Apr \u00b7 May \u00b7 Jun \u00b7 Jul \u00b7 Aug \u00b7 Sep \u00b7 Oct \u00b7 Nov \u00b7 Dec \u00b7 \"mo md\" (e.g., > Dec 25)\nmd monthday, always two digits number in the format \u00b7 \"mo md\" (e.g., > Dec 25)\nwe week number, always a two digit number in range 01-53, in the format \"week we\" (e.g., > week 25 Mo 08:30-20:00)\nSH School Holiday, can be used to indicate different opening hours during school holidays (e.g., Mo-Fr 08:00-09:00,14:00-15:00; SH off) [1]\nPH Public Holiday, can be used to indicate different opening hours during public holidays (e.g., Mo-Fr 09:00-17:00; PH 10:00-12:00; PH Su off)[1]\nThe above example means normal hours are monday to friday 9am to 5pm, except on public holidays it is 10am to 12pm, except public holidays that fall on a Sunday.\nThe general syntax for the value is: hh:mm-hh:mm (e.g., > 08:30-20:00)\nThe general syntax for the value is: wd hh:mm-hh:mm (e.g., > Fr 08:30-20:00)\nThe general syntax for the value is: mo md hh:mm-hh:mm (e.g., > Dec 25 08:30-20:00)\nThe general syntax for the value is: week we wd hh:mm-hh:mm (e.g., > week 25 Mo 08:30-20:00)\n[edit] Rules\nConsecutive hours [always needs open-close] separated by \"-\" \u00b7 (e.g., > 08:30-20:00)\nConsecutive weekdays open separated by \"-\" \u00b7 (e.g., > Mo-Fr)\nConsecutive monthdays open separated by \"-\" \u00b7 (e.g., > Dec 20-26) or (e.g., > Dec 20-Jan 06)\nOpen with periodicity \"n\" within a range of consecutive monthdays, the range is followed by \"/n\" (e.g., > 02-30/n)\nConsecutive weeks open separated by \"-\" \u00b7 (e.g., > week 01-26)\nOpen with periodicity \"n\" within a range of consecutive weeks, the range is followed by \"/n\" ( e.g.> week 02-52/n )\nA break on days separated by \",\" \u00b7 (e.g., > Mo,We,Fr)\nA break on hours separated by \",\" \u00b7 (e.g., > 08:30-14:00,16:30-20:00)\nDifferent hours on different days are separated by \";\" (e.g., > Mo 10:00-12:00,12:30-15:00; Tu-Fr 08:00-12:00,12:30-15:00; Sa 08:00-12:00)\nreads as: this opening hours for this days ; this opening hours for this days\nA weekday off will be tagged as \"wd off\" (e.g., > Tu off)\nA range of weekdays off will be tagged as \"wd-wd off\" (e.g., > Tu-Th off)\nA month off will be tagged as \"mo off\" (e.g., > Aug off )\nA range of months off will be tagged as \"mo-mo off\" (e.g., > Aug-Sep off)\nA monthday off will be tagged as \"mo md off\" (e.g., > Dec 25 off)\nA range of monthdays off will be tagged as \"mo md-md off\" (e.g., > Dec 24-26 off) or \"mo md - mo md off\" (e.g., > Dec 25-Jan 06 off )\nExceptions to a range of days, first the range then the exception (e.g., > Mo-Sa 10:00-20:00; Tu off) or (e.g., > Mo-Sa 10:00-20:00; Tu 10:00-14:00) (this means these are not additions, for example Mo-Fr 08:00-12:30; We 14:00-17:00 means that on Wednesdays, the shop is only opened in the afternoons and not additionally)\nIf it is in the first or last day of a range then don't use the exception rule, use the usual (e.g., > Mo-Fr 10:00-20:00; Sa 10:00-14:00)\nNon-consecutive or semi-consecutive days of the week will be tagged as wd[x] (e.g., Su[3] 09:00-12:00)\nThis is used to indicate the 3rd Sunday of the month from 9am to 12pm.\nUse -1 to indicate the last day of the month; e.g., Aug Th[-1] means last Thursday in July.\nCan use grouping, (e.g., Su[1,3,5] and Su[1-3])\nIf hours are non stop some days then (e.g., > 00:00-24:00)\nIf it is 24 hours 7 days a week it has a specific value: 24/7\nthis way it can render a specific icon.\nA special time value to mark the time the sun rises is: sunrise.\nA special time value to mark the time the sun sets is: sunset.\nA + behind a time means \"from\" or \"open end\" (e.g., Sa 22:00+)", 
+                            "disabled": false, 
+                            "hidden": false, 
+                            "key": "2fcfa410-ce2d-1fd2-c1c5-c8c50e2a53e8", 
+                            "label": "Opening Hours", 
+                            "numeric": false, 
+                            "required": false, 
+                            "type": "TextField"
+                        }, 
+                        {
                             "data_name": "description", 
+                            "description": "The description tag is for adding text that might be viewable to the end user. This might be used by for instance a search system or a map with pop-ups. It is recommended that the text is kept short; a few words or perhaps one to three sentences at most. Longer information can be provided by tagging a link to Wikipedia or other external website.", 
                             "disabled": false, 
                             "hidden": false, 
                             "key": "a73f0744-722c-4a8c-75fb-2c10311e6be7", 
@@ -1156,10 +1227,22 @@
                         }, 
                         {
                             "data_name": "source", 
+                            "description": "The source tag is a meta-tag, used for categorizing the source of information added to the database. It is not usually used for rendering, but it assists with the verification of data, and informs future editors about the origins of the data they are modifying.", 
                             "disabled": false, 
                             "hidden": false, 
                             "key": "866418c8-ef6b-e72b-42c3-8b36ab7ae74b", 
                             "label": "Source", 
+                            "numeric": false, 
+                            "required": false, 
+                            "type": "TextField"
+                        }, 
+                        {
+                            "data_name": "fixme", 
+                            "description": "The fixme key allows contributors to mark objects and places that need further attention. These can be in the form of a \"note to self\" or request for additional mapping resources.", 
+                            "disabled": false, 
+                            "hidden": false, 
+                            "key": "d8ec5af9-f513-2156-bfee-5c81e16bac0d", 
+                            "label": "Correction Notes (fixme)", 
                             "numeric": false, 
                             "required": false, 
                             "type": "TextField"
