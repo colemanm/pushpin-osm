@@ -349,6 +349,10 @@
                     "value": "sport=shooting"
                 }, 
                 {
+                    "label": "Shuffleboard", 
+                    "value": "sport=shuffleboard"
+                }, 
+                {
                     "label": "Skateboarding", 
                     "value": "sport=skateboard"
                 }, 
