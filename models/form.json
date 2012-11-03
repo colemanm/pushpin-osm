@@ -44,7 +44,20 @@
                             "key": "3317dcc6-860d-3b81-0d30-18668c54b740", 
                             "label": "Building", 
                             "required": false, 
-                            "type": "ClassificationField"
+                            "type": "ClassificationField", 
+                            "visible_conditions": [
+                                {
+                                    "field_key": "8f607997-bdaf-57c4-f18c-c45e4a88e09c", 
+                                    "operator": "equal_to", 
+                                    "value": "way"
+                                }, 
+                                {
+                                    "field_key": "8f607997-bdaf-57c4-f18c-c45e4a88e09c", 
+                                    "operator": "equal_to", 
+                                    "value": "relation"
+                                }
+                            ], 
+                            "visible_conditions_type": "any"
                         }
                     ], 
                     "hidden": false, 
@@ -1246,6 +1259,31 @@
                             "numeric": false, 
                             "required": false, 
                             "type": "TextField"
+                        }, 
+                        {
+                            "allow_other": false, 
+                            "choices": [
+                                {
+                                    "label": "node", 
+                                    "value": "node"
+                                }, 
+                                {
+                                    "label": "way", 
+                                    "value": "way"
+                                }, 
+                                {
+                                    "label": "relation", 
+                                    "value": "relation"
+                                }
+                            ], 
+                            "data_name": "object_type", 
+                            "disabled": true, 
+                            "hidden": false, 
+                            "key": "8f607997-bdaf-57c4-f18c-c45e4a88e09c", 
+                            "label": "Object Type", 
+                            "multiple": false, 
+                            "required": false, 
+                            "type": "ChoiceField"
                         }
                     ], 
                     "hidden": false, 
