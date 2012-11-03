@@ -135,11 +135,11 @@
                             "visible_conditions_type": "all"
                         }, 
                         {
-                            "data_name": "number_of_floors", 
+                            "data_name": "number_of_floors_levels", 
                             "disabled": false, 
                             "hidden": false, 
                             "key": "51cabbd1-d003-1a81-a0d2-f0abd518d75d", 
-                            "label": "Number of Floors", 
+                            "label": "Number of Floors / Levels", 
                             "numeric": true, 
                             "required": false, 
                             "type": "TextField", 
@@ -1095,17 +1095,6 @@
                             "type": "TextField"
                         }, 
                         {
-                            "data_name": "unit_suite", 
-                            "description": "While a big building could have only one entrance, sometimes the way inside divides into different units or staircases, where certain apartments/flats/offices can only be reached though a specific unit. An information necessary for postmen, for example.", 
-                            "disabled": false, 
-                            "hidden": false, 
-                            "key": "41d6153a-ebf7-6b38-ad18-dbfdc09745b7", 
-                            "label": "Unit / Suite", 
-                            "numeric": false, 
-                            "required": false, 
-                            "type": "TextField"
-                        }, 
-                        {
                             "data_name": "addr:street", 
                             "disabled": false, 
                             "hidden": false, 
@@ -1151,6 +1140,17 @@
                             "hidden": false, 
                             "key": "d1b60903-4414-d2b9-a3f1-7a89133f7af9", 
                             "label": "Country", 
+                            "numeric": false, 
+                            "required": false, 
+                            "type": "TextField"
+                        }, 
+                        {
+                            "data_name": "unit_suite", 
+                            "description": "While a big building could have only one entrance, sometimes the way inside divides into different units or staircases, where certain apartments/flats/offices can only be reached though a specific unit. An information necessary for postmen, for example.", 
+                            "disabled": false, 
+                            "hidden": false, 
+                            "key": "41d6153a-ebf7-6b38-ad18-dbfdc09745b7", 
+                            "label": "Unit / Suite", 
                             "numeric": false, 
                             "required": false, 
                             "type": "TextField"
