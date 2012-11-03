@@ -1278,7 +1278,7 @@
                             ], 
                             "data_name": "object_type", 
                             "disabled": true, 
-                            "hidden": false, 
+                            "hidden": true, 
                             "key": "8f607997-bdaf-57c4-f18c-c45e4a88e09c", 
                             "label": "Object Type", 
                             "multiple": false, 
