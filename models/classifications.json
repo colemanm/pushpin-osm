@@ -1731,6 +1731,10 @@
                             "value": "shop=supermarket"
                         }, 
                         {
+                            "label": "Guns", 
+                            "value": "shop=guns"
+                        }, 
+                        {
                             "label": "Hardware", 
                             "value": "shop=hardware"
                         }, 
@@ -1909,6 +1913,10 @@
                         {
                             "label": "Video Games", 
                             "value": "shop=video_games"
+                        }, 
+                        {
+                            "label": "Weapons", 
+                            "value": "shop=weapons"
                         }, 
                         {
                             "label": "Wine", 
