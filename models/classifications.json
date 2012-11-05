@@ -1839,6 +1839,10 @@
                             "value": "shop=pawnbroker"
                         }, 
                         {
+                            "label": "Pest Control", 
+                            "value": "shop=pest_control"
+                        }, 
+                        {
                             "label": "Pet Store", 
                             "value": "shop=pet"
                         }, 
