@@ -235,6 +235,10 @@
                     "value": "cuisine=croatian"
                 }, 
                 {
+                    "label": "Cuban", 
+                    "value": "cuisine=cuban"
+                }, 
+                {
                     "label": "Curry", 
                     "value": "cuisine=curry"
                 }, 
