@@ -281,15 +281,7 @@
                             "label": "Wheelchair Access?", 
                             "multiple": false, 
                             "required": false, 
-                            "type": "ChoiceField", 
-                            "visible_conditions": [
-                                {
-                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
-                                    "operator": "equal_to", 
-                                    "value": "amenities_outdoor,amenity=toilets"
-                                }
-                            ], 
-                            "visible_conditions_type": "any"
+                            "type": "ChoiceField"
                         }, 
                         {
                             "allow_other": false, 
@@ -1317,8 +1309,8 @@
             "id": "5093326ea93448390e0001af", 
             "name": "OpenStreetMap", 
             "record_count": 0, 
-            "record_title_key": null, 
-            "updated_at": "2012-11-02T02:39:42Z"
+            "record_title_key": "06867ef7-9a1e-253c-7fa3-5c24c93ac083", 
+            "updated_at": "2012-11-12T16:13:23Z"
         }
     ], 
     "per_page": 50, 
