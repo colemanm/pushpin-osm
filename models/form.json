@@ -74,6 +74,115 @@
                             "allow_other": false, 
                             "choices": [
                                 {
+                                    "label": "Asphalt", 
+                                    "value": "surface=asphalt"
+                                }, 
+                                {
+                                    "label": "Bricks", 
+                                    "value": "surface=bricks"
+                                }, 
+                                {
+                                    "label": "Clay", 
+                                    "value": "surface=clay"
+                                }, 
+                                {
+                                    "label": "Cobblestone", 
+                                    "value": "surface=cobblestone"
+                                }, 
+                                {
+                                    "label": "Compacted", 
+                                    "value": "surface=compacted"
+                                }, 
+                                {
+                                    "label": "Concrete", 
+                                    "value": "surface=concrete"
+                                }, 
+                                {
+                                    "label": "Dirt", 
+                                    "value": "surface=dirt"
+                                }, 
+                                {
+                                    "label": "Fine Gravel", 
+                                    "value": "surface=fine_gravel"
+                                }, 
+                                {
+                                    "label": "Grass", 
+                                    "value": "surface=grass"
+                                }, 
+                                {
+                                    "label": "Gravel", 
+                                    "value": "surface=gravel"
+                                }, 
+                                {
+                                    "label": "Ground", 
+                                    "value": "surface=ground"
+                                }, 
+                                {
+                                    "label": "Metal", 
+                                    "value": "surface=metal"
+                                }, 
+                                {
+                                    "label": "Mud", 
+                                    "value": "surface=mud"
+                                }, 
+                                {
+                                    "label": "Paved", 
+                                    "value": "surface=paved"
+                                }, 
+                                {
+                                    "label": "Paving Stones", 
+                                    "value": "surface=paving_stones"
+                                }, 
+                                {
+                                    "label": "Pebblestone", 
+                                    "value": "surface=pebblestone"
+                                }, 
+                                {
+                                    "label": "Rock", 
+                                    "value": "surface=rock"
+                                }, 
+                                {
+                                    "label": "Sand", 
+                                    "value": "surface=sand"
+                                }, 
+                                {
+                                    "label": "Shells", 
+                                    "value": "surface=shells"
+                                }, 
+                                {
+                                    "label": "Stone", 
+                                    "value": "surface=stone"
+                                }, 
+                                {
+                                    "label": "Unpaved", 
+                                    "value": "surface=unpaved"
+                                }, 
+                                {
+                                    "label": "Wood", 
+                                    "value": "surface=wood"
+                                }
+                            ], 
+                            "data_name": "surface", 
+                            "disabled": false, 
+                            "hidden": false, 
+                            "key": "6e0cd953-3f3b-9520-bd37-ae453f4d523c", 
+                            "label": "Surface", 
+                            "multiple": false, 
+                            "required": false, 
+                            "type": "ChoiceField", 
+                            "visible_conditions": [
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "transportation,parking"
+                                }
+                            ], 
+                            "visible_conditions_type": "all"
+                        }, 
+                        {
+                            "allow_other": false, 
+                            "choices": [
+                                {
                                     "label": "Hut", 
                                     "value": "shelter_type=basic_hut"
                                 }, 
@@ -334,6 +443,11 @@
                                     "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
                                     "operator": "equal_to", 
                                     "value": "transportation,amenity=fuel"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "restaurant"
                                 }
                             ], 
                             "visible_conditions_type": "any"
@@ -608,6 +722,51 @@
                                     "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
                                     "operator": "equal_to", 
                                     "value": "amenities_outdoor,amenity=bicycle_parking"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "amenities_outdoor,amenity=telephone"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "Banking,amenity=atm"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "restaurant,amenity=bbq"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "amenities_outdoor,amenity=bench"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "amenities_outdoor,amenity=bicycle_rental"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "transportation,buses,public_transport=station"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "transportation,buses,highway=bus_stop"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "amenities_outdoor,amenity=drinking_water"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "amenities_outdoor,amenity=swimming_pool"
                                 }, 
                                 {
                                     "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
