@@ -262,32 +262,6 @@
                             "choices": [
                                 {
                                     "label": "Yes", 
-                                    "value": "wheelchair=yes"
-                                }, 
-                                {
-                                    "label": "No", 
-                                    "value": "wheelchair=no"
-                                }, 
-                                {
-                                    "label": "Limited", 
-                                    "value": "wheelchair=limited"
-                                }
-                            ], 
-                            "data_name": "wheelchair", 
-                            "description": "Is it wheelchair accessible?\n\nThis tag may be used to mark places or ways that are suitable to be used with a wheelchair. It should only be used if you are sure about it. This can either be because there's a special sign or because of personal experience/someone with a wheelchair told you. There are also a lot of other Tags that can help to determine if the way is suitable for wheelchairs.", 
-                            "disabled": false, 
-                            "hidden": false, 
-                            "key": "e78bf83a-752c-7b31-efb7-fddda55af8d0", 
-                            "label": "Wheelchair Access?", 
-                            "multiple": false, 
-                            "required": false, 
-                            "type": "ChoiceField"
-                        }, 
-                        {
-                            "allow_other": false, 
-                            "choices": [
-                                {
-                                    "label": "Yes", 
                                     "value": "food=yes"
                                 }, 
                                 {
@@ -355,6 +329,11 @@
                                     "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
                                     "operator": "equal_to", 
                                     "value": "Shopping"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "transportation,amenity=fuel"
                                 }
                             ], 
                             "visible_conditions_type": "any"
@@ -1197,6 +1176,32 @@
                             "numeric": false, 
                             "required": false, 
                             "type": "TextField"
+                        }, 
+                        {
+                            "allow_other": false, 
+                            "choices": [
+                                {
+                                    "label": "Yes", 
+                                    "value": "wheelchair=yes"
+                                }, 
+                                {
+                                    "label": "No", 
+                                    "value": "wheelchair=no"
+                                }, 
+                                {
+                                    "label": "Limited", 
+                                    "value": "wheelchair=limited"
+                                }
+                            ], 
+                            "data_name": "wheelchair", 
+                            "description": "Is it wheelchair accessible?\n\nThis tag may be used to mark places or ways that are suitable to be used with a wheelchair. It should only be used if you are sure about it. This can either be because there's a special sign or because of personal experience/someone with a wheelchair told you. There are also a lot of other Tags that can help to determine if the way is suitable for wheelchairs.", 
+                            "disabled": false, 
+                            "hidden": false, 
+                            "key": "e78bf83a-752c-7b31-efb7-fddda55af8d0", 
+                            "label": "Wheelchair Access?", 
+                            "multiple": false, 
+                            "required": false, 
+                            "type": "ChoiceField"
                         }, 
                         {
                             "data_name": "opening_hours", 
