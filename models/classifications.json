@@ -739,6 +739,10 @@
                             "value": "amenity=post_box"
                         }, 
                         {
+                            "label": "Recycling", 
+                            "value": "amenity=recycling"
+                        }, 
+                        {
                             "label": "Shelter", 
                             "value": "amenity=shelter"
                         }, 
@@ -749,6 +753,10 @@
                         {
                             "label": "Vending Machine", 
                             "value": "amenity=vending_machine"
+                        }, 
+                        {
+                            "label": "Waste Basket / Trash Can", 
+                            "value": "amenity=waste_basket"
                         }, 
                         {
                             "label": "Water Fountain", 
@@ -1808,7 +1816,7 @@
                         }, 
                         {
                             "label": "Mobile Phones", 
-                            "value": "shop=mobile_phones"
+                            "value": "shop=mobile_phone"
                         }, 
                         {
                             "label": "Moneylender / Loans / Cash Advances", 

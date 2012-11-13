@@ -301,6 +301,21 @@
                                     "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
                                     "operator": "equal_to", 
                                     "value": "arts_entertainment,amenity=cinema"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "transportation,buses"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "transportation,railways"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "transportation,airports"
                                 }
                             ], 
                             "visible_conditions_type": "any"
@@ -362,6 +377,21 @@
                                     "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
                                     "operator": "equal_to", 
                                     "value": "amenities_outdoor,amenity=bicycle_rental"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "transportation,buses"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "transportation,airports"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "transportation,railways"
                                 }
                             ], 
                             "visible_conditions_type": "any"
@@ -1156,26 +1186,6 @@
                             "type": "TextField"
                         }, 
                         {
-                            "data_name": "transport_network", 
-                            "disabled": false, 
-                            "hidden": false, 
-                            "key": "db8b213e-1fbb-39ad-bab6-5df97aba1a8d", 
-                            "label": "Network", 
-                            "numeric": false, 
-                            "required": false, 
-                            "type": "TextField"
-                        }, 
-                        {
-                            "data_name": "transport_operator", 
-                            "disabled": false, 
-                            "hidden": false, 
-                            "key": "885d03d2-2427-aeb5-a849-249f75ba6ced", 
-                            "label": "Operator", 
-                            "numeric": false, 
-                            "required": false, 
-                            "type": "TextField"
-                        }, 
-                        {
                             "data_name": "ref", 
                             "disabled": false, 
                             "hidden": false, 
@@ -1357,7 +1367,7 @@
                             "disabled": false, 
                             "hidden": false, 
                             "key": "e78bf83a-752c-7b31-efb7-fddda55af8d0", 
-                            "label": "Wheelchair Access?", 
+                            "label": "Wheelchair Access", 
                             "multiple": false, 
                             "required": false, 
                             "type": "ChoiceField"
