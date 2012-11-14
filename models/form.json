@@ -74,6 +74,47 @@
                             "allow_other": false, 
                             "choices": [
                                 {
+                                    "label": "Carports", 
+                                    "value": "parking=carports"
+                                }, 
+                                {
+                                    "label": "Multiple Levels / Stories", 
+                                    "value": "parking=multi-storey"
+                                }, 
+                                {
+                                    "label": "Sheds", 
+                                    "value": "parking=sheds"
+                                }, 
+                                {
+                                    "label": "Ground Level / Surface", 
+                                    "value": "parking=surface"
+                                }, 
+                                {
+                                    "label": "Underground", 
+                                    "value": "parking=underground"
+                                }
+                            ], 
+                            "data_name": "parking", 
+                            "disabled": false, 
+                            "hidden": false, 
+                            "key": "1b4b1160-194e-8af7-b5d2-5e42da3032c6", 
+                            "label": "Parking", 
+                            "multiple": false, 
+                            "required": false, 
+                            "type": "ChoiceField", 
+                            "visible_conditions": [
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "transportation,parking,amenity=parking"
+                                }
+                            ], 
+                            "visible_conditions_type": "all"
+                        }, 
+                        {
+                            "allow_other": false, 
+                            "choices": [
+                                {
                                     "label": "Asphalt", 
                                     "value": "surface=asphalt"
                                 }, 
@@ -175,6 +216,55 @@
                                     "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
                                     "operator": "equal_to", 
                                     "value": "transportation,parking"
+                                }
+                            ], 
+                            "visible_conditions_type": "all"
+                        }, 
+                        {
+                            "allow_other": false, 
+                            "choices": [
+                                {
+                                    "label": "Yes", 
+                                    "value": "park_ride=yes"
+                                }, 
+                                {
+                                    "label": "No", 
+                                    "value": "park_ride=no"
+                                }, 
+                                {
+                                    "label": "Bus", 
+                                    "value": "park_ride=bus"
+                                }, 
+                                {
+                                    "label": "Ferry", 
+                                    "value": "park_ride=ferry"
+                                }, 
+                                {
+                                    "label": "Metro", 
+                                    "value": "park_ride=metro"
+                                }, 
+                                {
+                                    "label": "Train", 
+                                    "value": "park_ride=train"
+                                }, 
+                                {
+                                    "label": "Tram", 
+                                    "value": "park_ride=tram"
+                                }
+                            ], 
+                            "data_name": "park_and_ride", 
+                            "disabled": false, 
+                            "hidden": false, 
+                            "key": "3c9bc7c6-7004-c0ec-eca9-3c8ae987560f", 
+                            "label": "Park and Ride?", 
+                            "multiple": false, 
+                            "required": false, 
+                            "type": "ChoiceField", 
+                            "visible_conditions": [
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "transportation,parking,amenity=parking"
                                 }
                             ], 
                             "visible_conditions_type": "all"
@@ -358,7 +448,7 @@
                                 {
                                     "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
                                     "operator": "equal_to", 
-                                    "value": "transportation,amenity=parking"
+                                    "value": "transportation,parking,amenity=parking"
                                 }
                             ], 
                             "visible_conditions_type": "any"
