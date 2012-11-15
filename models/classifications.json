@@ -2215,6 +2215,10 @@
                             "value": "traffic_calming=bump"
                         }, 
                         {
+                            "label": "Stop Area", 
+                            "value": "public_transport=stop_area"
+                        }, 
+                        {
                             "label": "Street Lamp", 
                             "value": "highway=street_lamp"
                         }, 
