@@ -142,6 +142,10 @@
                     "value": "building=shop"
                 }, 
                 {
+                    "label": "Stadium", 
+                    "value": "building=stadium"
+                }, 
+                {
                     "label": "Storage", 
                     "value": "building=storage"
                 }, 
