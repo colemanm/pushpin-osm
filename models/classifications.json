@@ -2219,6 +2219,10 @@
                             "value": "public_transport=stop_area"
                         }, 
                         {
+                            "label": "Stop Position", 
+                            "value": "public_transport=stop_position"
+                        }, 
+                        {
                             "label": "Street Lamp", 
                             "value": "highway=street_lamp"
                         }, 
