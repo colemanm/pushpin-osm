@@ -1969,6 +1969,10 @@
                             "value": "tourism=camp_site"
                         }, 
                         {
+                            "label": "Gallery", 
+                            "value": "tourism=gallery"
+                        }, 
+                        {
                             "label": "Guest House", 
                             "value": "tourism=guest_house"
                         }, 
