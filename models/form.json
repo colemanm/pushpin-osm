@@ -508,6 +508,35 @@
                             "choices": [
                                 {
                                     "label": "Yes", 
+                                    "value": "dispensing=yes"
+                                }, 
+                                {
+                                    "label": "No", 
+                                    "value": "dispensing=no"
+                                }
+                            ], 
+                            "data_name": "prescription_drugs", 
+                            "disabled": false, 
+                            "hidden": false, 
+                            "key": "3ade0e69-1671-9477-f238-e279beb1e1ae", 
+                            "label": "Prescription Drugs?", 
+                            "multiple": false, 
+                            "required": false, 
+                            "type": "ChoiceField", 
+                            "visible_conditions": [
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "medical,amenity=pharmacy"
+                                }
+                            ], 
+                            "visible_conditions_type": "any"
+                        }, 
+                        {
+                            "allow_other": false, 
+                            "choices": [
+                                {
+                                    "label": "Yes", 
                                     "value": "food=yes"
                                 }, 
                                 {
@@ -1172,35 +1201,6 @@
                                     "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
                                     "operator": "equal_to", 
                                     "value": "leisure,leisure=stadium"
-                                }
-                            ], 
-                            "visible_conditions_type": "any"
-                        }, 
-                        {
-                            "allow_other": false, 
-                            "choices": [
-                                {
-                                    "label": "Yes", 
-                                    "value": "dispensing=yes"
-                                }, 
-                                {
-                                    "label": "No", 
-                                    "value": "dispensing=no"
-                                }
-                            ], 
-                            "data_name": "prescription_drugs", 
-                            "disabled": false, 
-                            "hidden": false, 
-                            "key": "3ade0e69-1671-9477-f238-e279beb1e1ae", 
-                            "label": "Prescription Drugs?", 
-                            "multiple": false, 
-                            "required": false, 
-                            "type": "ChoiceField", 
-                            "visible_conditions": [
-                                {
-                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
-                                    "operator": "equal_to", 
-                                    "value": "medical,amenity=pharmacy"
                                 }
                             ], 
                             "visible_conditions_type": "any"
