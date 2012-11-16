@@ -2117,6 +2117,10 @@
                                     "value": "emergency=phone"
                                 }, 
                                 {
+                                    "label": "Fire Hydrant", 
+                                    "value": "emergency=fire_hydrant"
+                                }, 
+                                {
                                     "label": "Rest Area", 
                                     "value": "highway=rest_area"
                                 }, 
