@@ -1379,6 +1379,10 @@
                             "value": "office=architect"
                         }, 
                         {
+                            "label": "Charity", 
+                            "value": "office=charity"
+                        }, 
+                        {
                             "label": "Corporate Office", 
                             "value": "office=company"
                         }, 
