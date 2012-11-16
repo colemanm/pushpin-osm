@@ -74,6 +74,10 @@
                     "value": "building=farm_auxiliary"
                 }, 
                 {
+                    "label": "Gallery", 
+                    "value": "building=gallery"
+                }, 
+                {
                     "label": "Garage", 
                     "value": "building=garage"
                 }, 
