@@ -1371,6 +1371,10 @@
                             "value": "office=administrative"
                         }, 
                         {
+                            "label": "Advertising Agency", 
+                            "value": "office=advertising_agency"
+                        }, 
+                        {
                             "label": "Architect", 
                             "value": "office=architect"
                         }, 
@@ -1379,12 +1383,20 @@
                             "value": "office=company"
                         }, 
                         {
+                            "label": "Consulting", 
+                            "value": "office=consulting"
+                        }, 
+                        {
                             "label": "Educational Institution", 
                             "value": "office=educational_institution"
                         }, 
                         {
                             "label": "Employment Agency", 
                             "value": "office=employment_agency"
+                        }, 
+                        {
+                            "label": "Financial Office", 
+                            "value": "office=financial"
                         }, 
                         {
                             "label": "Government", 
@@ -1411,8 +1423,16 @@
                             "value": "office=ngo"
                         }, 
                         {
+                            "label": "Notary", 
+                            "value": "office=notary"
+                        }, 
+                        {
                             "label": "Political Party", 
                             "value": "office=political_party"
+                        }, 
+                        {
+                            "label": "Publisher", 
+                            "value": "office=publisher"
                         }, 
                         {
                             "label": "Real Estate Agent", 
@@ -1425,6 +1445,10 @@
                         {
                             "label": "Telecommunications", 
                             "value": "office=telecommunications"
+                        }, 
+                        {
+                            "label": "Therapist", 
+                            "value": "office=therapist"
                         }, 
                         {
                             "label": "Travel Agent", 
