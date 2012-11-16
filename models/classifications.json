@@ -1931,6 +1931,10 @@
                             "value": "shop=toys"
                         }, 
                         {
+                            "label": "Vacant", 
+                            "value": "shop=vacant"
+                        }, 
+                        {
                             "label": "Vacuum", 
                             "value": "shop=vacuum_cleaner"
                         }, 
