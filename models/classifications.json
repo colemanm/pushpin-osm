@@ -1927,6 +1927,10 @@
                             "value": "shop=shoes"
                         }, 
                         {
+                            "label": "Shoe Repair", 
+                            "value": "shop=shoe_repair"
+                        }, 
+                        {
                             "label": "Signs", 
                             "value": "shop=signs"
                         }, 
