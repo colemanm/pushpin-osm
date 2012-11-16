@@ -1819,6 +1819,10 @@
                             "value": "shop=doityourself"
                         }, 
                         {
+                            "label": "Homeopathy", 
+                            "value": "shop=homeopathy"
+                        }, 
+                        {
                             "label": "Household / Home Furnishing", 
                             "value": "shop=household"
                         }, 
