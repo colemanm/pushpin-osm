@@ -291,6 +291,10 @@
                     "value": "cuisine=fried_food"
                 }, 
                 {
+                    "label": "Gastronomic", 
+                    "value": "cuisine=gastronomic"
+                }, 
+                {
                     "label": "German", 
                     "value": "cuisine=german"
                 }, 
