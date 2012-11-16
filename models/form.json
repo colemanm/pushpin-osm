@@ -106,7 +106,7 @@
                                 {
                                     "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
                                     "operator": "equal_to", 
-                                    "value": "transportation,parking,amenity=parking"
+                                    "value": "transportation,parking"
                                 }
                             ], 
                             "visible_conditions_type": "all"
