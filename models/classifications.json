@@ -1429,6 +1429,10 @@
                         {
                             "label": "Travel Agent", 
                             "value": "office=travel_agent"
+                        }, 
+                        {
+                            "label": "Union", 
+                            "value": "office=union"
                         }
                     ], 
                     "label": "Offices", 
