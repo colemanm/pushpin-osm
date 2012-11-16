@@ -2169,6 +2169,10 @@
                         {
                             "child_classifications": [
                                 {
+                                    "label": "Motorcycle Parking", 
+                                    "value": "amenity=motorcycle_parking"
+                                }, 
+                                {
                                     "label": "Parking Lot", 
                                     "value": "amenity=parking"
                                 }, 
