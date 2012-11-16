@@ -207,6 +207,10 @@
                     "value": "cuisine=barbecue"
                 }, 
                 {
+                    "label": "Belgian", 
+                    "value": "cuisine=belgian"
+                }, 
+                {
                     "label": "Brazilian", 
                     "value": "cuisine=brazilian"
                 }, 
