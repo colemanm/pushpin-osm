@@ -1955,6 +1955,10 @@
                             "value": "shop=tattoo"
                         }, 
                         {
+                            "label": "Tea", 
+                            "value": "shop=tea"
+                        }, 
+                        {
                             "label": "Thrift Store / Second Hand", 
                             "value": "shop=second_hand"
                         }, 
