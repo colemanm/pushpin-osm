@@ -1195,7 +1195,15 @@
                             "label": "Prescription Drugs?", 
                             "multiple": false, 
                             "required": false, 
-                            "type": "ChoiceField"
+                            "type": "ChoiceField", 
+                            "visible_conditions": [
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "medical,amenity=pharmacy"
+                                }
+                            ], 
+                            "visible_conditions_type": "any"
                         }
                     ], 
                     "hidden": false, 
