@@ -1147,6 +1147,10 @@
                             "value": "man_made=lighthouse"
                         }, 
                         {
+                            "label": "Observatory", 
+                            "value": "man_made=observatory"
+                        }, 
+                        {
                             "label": "Power Pole", 
                             "value": "power=pole"
                         }, 
