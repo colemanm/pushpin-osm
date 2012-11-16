@@ -1135,6 +1135,10 @@
                             "value": "power=station"
                         }, 
                         {
+                            "label": "Power Sub-station", 
+                            "value": "power=sub_station"
+                        }, 
+                        {
                             "label": "Power Tower", 
                             "value": "power=tower"
                         }, 
