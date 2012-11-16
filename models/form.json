@@ -329,9 +329,14 @@
                                     "field_key": "3317dcc6-860d-3b81-0d30-18668c54b740", 
                                     "operator": "is_not_empty", 
                                     "value": ""
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "infrastructure"
                                 }
                             ], 
-                            "visible_conditions_type": "all"
+                            "visible_conditions_type": "any"
                         }, 
                         {
                             "data_name": "number_of_floors_levels", 
@@ -347,9 +352,14 @@
                                     "field_key": "3317dcc6-860d-3b81-0d30-18668c54b740", 
                                     "operator": "is_not_empty", 
                                     "value": ""
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "infrastructure"
                                 }
                             ], 
-                            "visible_conditions_type": "all"
+                            "visible_conditions_type": "any"
                         }, 
                         {
                             "data_name": "operator", 
@@ -416,6 +426,11 @@
                                     "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
                                     "operator": "equal_to", 
                                     "value": "transportation,parking"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "infrastructure"
                                 }
                             ], 
                             "visible_conditions_type": "any"
