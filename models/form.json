@@ -273,6 +273,67 @@
                             "allow_other": false, 
                             "choices": [
                                 {
+                                    "label": "Anchors", 
+                                    "value": "bicycle_parking=anchors"
+                                }, 
+                                {
+                                    "label": "Building", 
+                                    "value": "bicycle_parking=building"
+                                }, 
+                                {
+                                    "label": "Front Wheel", 
+                                    "value": "bicycle_parking=front_wheel"
+                                }, 
+                                {
+                                    "label": "Ground Slots", 
+                                    "value": "bicycle_parking=ground_slots"
+                                }, 
+                                {
+                                    "label": "High Capacity", 
+                                    "value": "bicycle_parking=high_capacity"
+                                }, 
+                                {
+                                    "label": "Lockers", 
+                                    "value": "bicycle_parking=lockers"
+                                }, 
+                                {
+                                    "label": "Shed", 
+                                    "value": "bicycle_parking=shed"
+                                }, 
+                                {
+                                    "label": "Sheffield", 
+                                    "value": "bicycle_parking=sheffield"
+                                }, 
+                                {
+                                    "label": "Stands", 
+                                    "value": "bicycle_parking=stands"
+                                }, 
+                                {
+                                    "label": "Wall Loops", 
+                                    "value": "bicycle_parking=wall_loops"
+                                }
+                            ], 
+                            "data_name": "bicycle_parking", 
+                            "disabled": false, 
+                            "hidden": false, 
+                            "key": "1cc03a2f-f921-006c-aff0-cbe647ad7bcf", 
+                            "label": "Bicycle Parking", 
+                            "multiple": false, 
+                            "required": false, 
+                            "type": "ChoiceField", 
+                            "visible_conditions": [
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "amenities_outdoor,amenity=bicycle_parking"
+                                }
+                            ], 
+                            "visible_conditions_type": "any"
+                        }, 
+                        {
+                            "allow_other": false, 
+                            "choices": [
+                                {
                                     "label": "Hut", 
                                     "value": "shelter_type=basic_hut"
                                 }, 
@@ -352,80 +413,6 @@
                                     "field_key": "3317dcc6-860d-3b81-0d30-18668c54b740", 
                                     "operator": "is_not_empty", 
                                     "value": ""
-                                }, 
-                                {
-                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
-                                    "operator": "equal_to", 
-                                    "value": "infrastructure"
-                                }
-                            ], 
-                            "visible_conditions_type": "any"
-                        }, 
-                        {
-                            "data_name": "operator", 
-                            "description": "The operator tag is used to name a company, corporation, person or any other entity who is in charge of the operation of a certain map object.\n\nOften it's useful to describe that a certain map object \"belongs\" to a company or corporation in any way. For example: With the emerging of private postal service providers, it may be of interest for the map user which postal services provider operates a certain post_box.\n\nWhen choosing the appropriate value it is beneficial to use exactly the same text, including capitalization across all entries. The title of the associated Wikipedia article for the same organization may be useful as a reference.", 
-                            "disabled": false, 
-                            "hidden": false, 
-                            "key": "6a12e3b2-f030-b429-0c47-6675329f1c6f", 
-                            "label": "Operator", 
-                            "numeric": false, 
-                            "required": false, 
-                            "type": "TextField", 
-                            "visible_conditions": [
-                                {
-                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
-                                    "operator": "equal_to", 
-                                    "value": "Banking,amenity=atm"
-                                }, 
-                                {
-                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
-                                    "operator": "equal_to", 
-                                    "value": "amenities_outdoor,amenity=bicycle_parking"
-                                }, 
-                                {
-                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
-                                    "operator": "equal_to", 
-                                    "value": "amenities_outdoor,amenity=bicycle_rental"
-                                }, 
-                                {
-                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
-                                    "operator": "equal_to", 
-                                    "value": "amenities_outdoor,amenity=telephone"
-                                }, 
-                                {
-                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
-                                    "operator": "equal_to", 
-                                    "value": "amenities_outdoor,amenity=post_box"
-                                }, 
-                                {
-                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
-                                    "operator": "equal_to", 
-                                    "value": "arts_entertainment,amenity=cinema"
-                                }, 
-                                {
-                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
-                                    "operator": "equal_to", 
-                                    "value": "transportation,buses"
-                                }, 
-                                {
-                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
-                                    "operator": "equal_to", 
-                                    "value": "transportation,railways"
-                                }, 
-                                {
-                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
-                                    "operator": "equal_to", 
-                                    "value": "transportation,airports"
-                                }, 
-                                {
-                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
-                                    "operator": "equal_to", 
-                                    "value": "transportation,public_transport=stop_area"
-                                }, 
-                                {
-                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
-                                    "operator": "equal_to", 
-                                    "value": "transportation,parking"
                                 }, 
                                 {
                                     "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
@@ -1441,6 +1428,17 @@
                     "data_name": "other_information", 
                     "disabled": false, 
                     "elements": [
+                        {
+                            "data_name": "operator", 
+                            "description": "The operator tag is used to name a company, corporation, person or any other entity who is in charge of the operation of a certain map object.\n\nOften it's useful to describe that a certain map object \"belongs\" to a company or corporation in any way. For example: With the emerging of private postal service providers, it may be of interest for the map user which postal services provider operates a certain post_box.\n\nWhen choosing the appropriate value it is beneficial to use exactly the same text, including capitalization across all entries. The title of the associated Wikipedia article for the same organization may be useful as a reference.", 
+                            "disabled": false, 
+                            "hidden": false, 
+                            "key": "6a12e3b2-f030-b429-0c47-6675329f1c6f", 
+                            "label": "Operator", 
+                            "numeric": false, 
+                            "required": false, 
+                            "type": "TextField"
+                        }, 
                         {
                             "data_name": "contact:phone", 
                             "disabled": false, 
