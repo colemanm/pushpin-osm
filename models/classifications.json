@@ -118,6 +118,10 @@
                     "value": "building=manufacture"
                 }, 
                 {
+                    "label": "Office", 
+                    "value": "building=office"
+                }, 
+                {
                     "label": "Residential", 
                     "value": "building=residential"
                 }, 
