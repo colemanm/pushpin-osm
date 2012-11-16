@@ -1591,6 +1591,10 @@
                             "value": "amenity=recycling"
                         }, 
                         {
+                            "label": "Shower", 
+                            "value": "amenity=shower"
+                        }, 
+                        {
                             "label": "Social Facility", 
                             "value": "amenity=social_centre"
                         }
