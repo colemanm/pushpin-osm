@@ -854,6 +854,45 @@
                             "choices": [
                                 {
                                     "label": "Yes", 
+                                    "value": "delivery=yes"
+                                }, 
+                                {
+                                    "label": "No", 
+                                    "value": "delivery=no"
+                                }
+                            ], 
+                            "data_name": "delivery", 
+                            "disabled": false, 
+                            "hidden": false, 
+                            "key": "7ba3f048-779b-9f48-be18-37d20ad2fc13", 
+                            "label": "Delivery?", 
+                            "multiple": false, 
+                            "required": false, 
+                            "type": "ChoiceField", 
+                            "visible_conditions": [
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "restaurant,amenity=fast_food"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "restaurant,amenity=restaurant"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "Shopping,shop=supermarket"
+                                }
+                            ], 
+                            "visible_conditions_type": "any"
+                        }, 
+                        {
+                            "allow_other": false, 
+                            "choices": [
+                                {
+                                    "label": "Yes", 
                                     "value": "covered=yes"
                                 }, 
                                 {
@@ -1031,7 +1070,7 @@
                             "disabled": false, 
                             "hidden": false, 
                             "key": "0592cbff-b76b-56ac-9654-ebd6fc4f04b2", 
-                            "label": "Religion?", 
+                            "label": "Religion", 
                             "multiple": false, 
                             "required": false, 
                             "type": "ChoiceField", 
@@ -1052,7 +1091,7 @@
                             "disabled": false, 
                             "hidden": false, 
                             "key": "75a50d95-400a-8635-48cd-209101a6dcd9", 
-                            "label": "Religious Denomination?", 
+                            "label": "Religious Denomination", 
                             "required": false, 
                             "type": "ClassificationField", 
                             "visible_conditions": [
@@ -1131,6 +1170,27 @@
                                 }
                             ], 
                             "visible_conditions_type": "any"
+                        }, 
+                        {
+                            "allow_other": false, 
+                            "choices": [
+                                {
+                                    "label": "Yes", 
+                                    "value": "dispensing=yes"
+                                }, 
+                                {
+                                    "label": "No", 
+                                    "value": "dispensing=no"
+                                }
+                            ], 
+                            "data_name": "prescription_drugs", 
+                            "disabled": false, 
+                            "hidden": false, 
+                            "key": "3ade0e69-1671-9477-f238-e279beb1e1ae", 
+                            "label": "Prescription Drugs?", 
+                            "multiple": false, 
+                            "required": false, 
+                            "type": "ChoiceField"
                         }
                     ], 
                     "hidden": false, 
