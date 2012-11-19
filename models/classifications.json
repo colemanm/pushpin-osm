@@ -887,10 +887,6 @@
                             "value": "amenity=shelter"
                         }, 
                         {
-                            "label": "Swimming Pool", 
-                            "value": "amenity=swimming_pool"
-                        }, 
-                        {
                             "label": "Vending Machine", 
                             "value": "amenity=vending_machine"
                         }, 
