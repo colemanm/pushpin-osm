@@ -1496,7 +1496,7 @@
                             "type": "TextField"
                         }
                     ], 
-                    "hidden": true, 
+                    "hidden": false, 
                     "key": "4fb6c042144140674e000083", 
                     "label": "Address", 
                     "required": false, 
