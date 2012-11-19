@@ -199,8 +199,16 @@
                     "value": "cuisine=american"
                 }, 
                 {
+                    "label": "Argentinian", 
+                    "value": "cuisine=argentinian"
+                }, 
+                {
                     "label": "Asian", 
                     "value": "cuisine=asian"
+                }, 
+                {
+                    "label": "Austrian", 
+                    "value": "cuisine=austrian"
                 }, 
                 {
                     "label": "Bagels", 
@@ -213,6 +221,10 @@
                 {
                     "label": "Barbecue", 
                     "value": "cuisine=barbecue"
+                }, 
+                {
+                    "label": "Bavarian", 
+                    "value": "cuisine=bavarian"
                 }, 
                 {
                     "label": "Belgian", 
@@ -233,6 +245,14 @@
                 {
                     "label": "Cake", 
                     "value": "cuisine=cake"
+                }, 
+                {
+                    "label": "Cantonese", 
+                    "value": "cuisine=cantonese"
+                }, 
+                {
+                    "label": "Caribbean", 
+                    "value": "cuisine=caribbean"
                 }, 
                 {
                     "label": "Chicken", 
@@ -295,6 +315,10 @@
                     "value": "cuisine=fish_and_chips"
                 }, 
                 {
+                    "label": "Fondue", 
+                    "value": "cuisine=fondue"
+                }, 
+                {
                     "label": "French", 
                     "value": "cuisine=french"
                 }, 
@@ -307,12 +331,20 @@
                     "value": "cuisine=gastronomic"
                 }, 
                 {
+                    "label": "Georgian", 
+                    "value": "cuisine=georgian"
+                }, 
+                {
                     "label": "German", 
                     "value": "cuisine=german"
                 }, 
                 {
                     "label": "Greek", 
                     "value": "cuisine=greek"
+                }, 
+                {
+                    "label": "Hungarian", 
+                    "value": "cuisine=hungarian"
                 }, 
                 {
                     "label": "Ice Cream", 
@@ -327,6 +359,10 @@
                     "value": "cuisine=indonesian"
                 }, 
                 {
+                    "label": "International", 
+                    "value": "cuisine=international"
+                }, 
+                {
                     "label": "Irish", 
                     "value": "cuisine=irish"
                 }, 
@@ -337,6 +373,10 @@
                 {
                     "label": "Japanese", 
                     "value": "cuisine=japanese"
+                }, 
+                {
+                    "label": "Juice", 
+                    "value": "cuisine=juice"
                 }, 
                 {
                     "label": "Kebab", 
@@ -379,8 +419,16 @@
                     "value": "cuisine=arab"
                 }, 
                 {
+                    "label": "Mongolian", 
+                    "value": "cuisine=mongolian"
+                }, 
+                {
                     "label": "Noodle", 
                     "value": "cuisine=noodle"
+                }, 
+                {
+                    "label": "Pancakes", 
+                    "value": "cuisine=pancake"
                 }, 
                 {
                     "label": "Pasta", 
@@ -389,6 +437,14 @@
                 {
                     "label": "Persian", 
                     "value": "cuisine=iranian"
+                }, 
+                {
+                    "label": "Peruvian", 
+                    "value": "cuisine=peruvian"
+                }, 
+                {
+                    "label": "Philippine", 
+                    "value": "cuisine=philippine"
                 }, 
                 {
                     "label": "Pie", 
@@ -401,6 +457,14 @@
                 {
                     "label": "Pizza", 
                     "value": "cuisine=pizza"
+                }, 
+                {
+                    "label": "Polish", 
+                    "value": "cuisine=polish"
+                }, 
+                {
+                    "label": "Ramen", 
+                    "value": "cuisine=ramen"
                 }, 
                 {
                     "label": "Regional", 
@@ -425,6 +489,10 @@
                 {
                     "label": "Seafood", 
                     "value": "cuisine=seafood"
+                }, 
+                {
+                    "label": "Soup", 
+                    "value": "cuisine=soup"
                 }, 
                 {
                     "label": "Spanish", 
@@ -455,8 +523,20 @@
                     "value": "cuisine=vegan"
                 }, 
                 {
+                    "label": "Vegetarian", 
+                    "value": "cuisine=vegetarian"
+                }, 
+                {
                     "label": "Vietnamese", 
                     "value": "cuisine=vietnamese"
+                }, 
+                {
+                    "label": "Waffles", 
+                    "value": "cuisine=waffle"
+                }, 
+                {
+                    "label": "Yogurt", 
+                    "value": "cuisine=yogurt"
                 }
             ], 
             "name": "OSM Cuisines", 
