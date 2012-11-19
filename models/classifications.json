@@ -739,7 +739,7 @@
                 {
                     "child_classifications": [
                         {
-                            "label": "Bathroom", 
+                            "label": "Bathroom / Toilets", 
                             "value": "amenity=toilets"
                         }, 
                         {
@@ -751,8 +751,16 @@
                             "value": "amenity=bicycle_rental"
                         }, 
                         {
+                            "label": "Clock", 
+                            "value": "amenity=clock"
+                        }, 
+                        {
                             "label": "Fountain", 
                             "value": "amenity=fountain"
+                        }, 
+                        {
+                            "label": "Hunting Stand", 
+                            "value": "amenity=hunting_stand"
                         }, 
                         {
                             "label": "Park Bench", 
@@ -785,6 +793,10 @@
                         {
                             "label": "Waste Basket / Trash Can", 
                             "value": "amenity=waste_basket"
+                        }, 
+                        {
+                            "label": "Waste Disposal / Dumpster", 
+                            "value": "amenity=waste_disposal"
                         }, 
                         {
                             "label": "Water Fountain", 
@@ -1213,6 +1225,10 @@
                             "value": "leisure=slipway"
                         }, 
                         {
+                            "label": "Boat Storage", 
+                            "value": "amenity=boat_storage"
+                        }, 
+                        {
                             "label": "Common Area", 
                             "value": "leisure=common"
                         }, 
@@ -1579,6 +1595,10 @@
                             "value": "amenity=courthouse"
                         }, 
                         {
+                            "label": "Driving School", 
+                            "value": "amenity=driving_school"
+                        }, 
+                        {
                             "label": "Embassy", 
                             "value": "amenity=embassy"
                         }, 
@@ -1607,8 +1627,16 @@
                             "value": "amenity=prison"
                         }, 
                         {
+                            "label": "Public Building", 
+                            "value": "amenity=public_building"
+                        }, 
+                        {
                             "label": "Recycling", 
                             "value": "amenity=recycling"
+                        }, 
+                        {
+                            "label": "Sauna", 
+                            "value": "amenity=sauna"
                         }, 
                         {
                             "label": "Shower", 
@@ -1617,6 +1645,10 @@
                         {
                             "label": "Social Facility", 
                             "value": "amenity=social_centre"
+                        }, 
+                        {
+                            "label": "Town Hall", 
+                            "value": "amenity=townhall"
                         }
                     ], 
                     "label": "Public Services", 
@@ -1655,6 +1687,10 @@
                 {
                     "child_classifications": [
                         {
+                            "label": "Accessories", 
+                            "value": "shop=accessories"
+                        }, 
+                        {
                             "label": "Alcohol / Liquor Store", 
                             "value": "shop=alcohol"
                         }, 
@@ -1677,6 +1713,10 @@
                         {
                             "label": "Baby Store", 
                             "value": "shop=baby_goods"
+                        }, 
+                        {
+                            "label": "Bags / Purses", 
+                            "value": "shop=bags"
                         }, 
                         {
                             "label": "Bakery", 
@@ -1717,6 +1757,10 @@
                         {
                             "label": "Butcher Shop", 
                             "value": "shop=butcher"
+                        }, 
+                        {
+                            "label": "Candy", 
+                            "value": "shop=candy"
                         }, 
                         {
                             "label": "Car Dealer", 
@@ -1791,6 +1835,10 @@
                             "value": "shop=fabric"
                         }, 
                         {
+                            "label": "Fishing", 
+                            "value": "shop=fishing"
+                        }, 
+                        {
                             "label": "Fishmonger", 
                             "value": "shop=fishmonger"
                         }, 
@@ -1817,6 +1865,10 @@
                         {
                             "label": "Gift Shop", 
                             "value": "shop=gift"
+                        }, 
+                        {
+                            "label": "Golf Store", 
+                            "value": "shop=golf"
                         }, 
                         {
                             "label": "Grocery / Supermarket", 
@@ -1883,16 +1935,32 @@
                             "value": "shop=laundry"
                         }, 
                         {
+                            "label": "Leather", 
+                            "value": "shop=leather"
+                        }, 
+                        {
                             "label": "Lingerie", 
                             "value": "shop=erotic"
+                        }, 
+                        {
+                            "label": "Locksmith", 
+                            "value": "shop=locksmith"
                         }, 
                         {
                             "label": "Mall", 
                             "value": "shop=mall"
                         }, 
                         {
+                            "label": "Marine", 
+                            "value": "shop=marine"
+                        }, 
+                        {
                             "label": "Massage", 
                             "value": "shop=massage"
+                        }, 
+                        {
+                            "label": "Medical Supply", 
+                            "value": "shop=medical_supply"
                         }, 
                         {
                             "label": "Mobile Phones", 
@@ -1935,6 +2003,10 @@
                             "value": "shop=paint"
                         }, 
                         {
+                            "label": "Party", 
+                            "value": "shop=party"
+                        }, 
+                        {
                             "label": "Pawn Shop", 
                             "value": "shop=pawnbroker"
                         }, 
@@ -1947,6 +2019,10 @@
                             "value": "shop=pet"
                         }, 
                         {
+                            "label": "Photo Shop", 
+                            "value": "shop=photo"
+                        }, 
+                        {
                             "label": "Produce", 
                             "value": "shop=greengrocer"
                         }, 
@@ -1955,12 +2031,20 @@
                             "value": "shop=seafood"
                         }, 
                         {
+                            "label": "Sewing", 
+                            "value": "shop=sewing"
+                        }, 
+                        {
                             "label": "Shoe Store", 
                             "value": "shop=shoes"
                         }, 
                         {
                             "label": "Shoe Repair", 
                             "value": "shop=shoe_repair"
+                        }, 
+                        {
+                            "label": "Shopping Center", 
+                            "value": "shop=shopping_centre"
                         }, 
                         {
                             "label": "Signs", 
@@ -1979,6 +2063,10 @@
                             "value": "shop=storage_units"
                         }, 
                         {
+                            "label": "Tanning", 
+                            "value": "shop=tanning"
+                        }, 
+                        {
                             "label": "Tattoos", 
                             "value": "shop=tattoo"
                         }, 
@@ -1989,6 +2077,14 @@
                         {
                             "label": "Thrift Store / Second Hand", 
                             "value": "shop=second_hand"
+                        }, 
+                        {
+                            "label": "Tickets", 
+                            "value": "shop=ticket"
+                        }, 
+                        {
+                            "label": "Tile", 
+                            "value": "shop=tiles"
                         }, 
                         {
                             "label": "Tires", 
@@ -2023,8 +2119,16 @@
                             "value": "shop=video_games"
                         }, 
                         {
+                            "label": "Watches", 
+                            "value": "shop=watches"
+                        }, 
+                        {
                             "label": "Weapons", 
                             "value": "shop=weapons"
+                        }, 
+                        {
+                            "label": "Wedding", 
+                            "value": "shop=wedding"
                         }, 
                         {
                             "label": "Wine", 
@@ -2159,6 +2263,10 @@
                                 {
                                     "label": "Car Wash", 
                                     "value": "amenity=car_wash"
+                                }, 
+                                {
+                                    "label": "Compressed Air", 
+                                    "value": "amenity=compressed_air"
                                 }
                             ], 
                             "label": "Car Services", 
@@ -2200,6 +2308,10 @@
                         }, 
                         {
                             "child_classifications": [
+                                {
+                                    "label": "Charging Station", 
+                                    "value": "amenity=charging_station"
+                                }, 
                                 {
                                     "label": "Emergency Phone", 
                                     "value": "emergency=phone"
