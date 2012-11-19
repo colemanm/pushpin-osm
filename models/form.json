@@ -1001,7 +1001,7 @@
                                 {
                                     "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
                                     "operator": "equal_to", 
-                                    "value": "amenities_outdoor,amenity=swimming_pool"
+                                    "value": "leisure,leisure=swimming_pool"
                                 }, 
                                 {
                                     "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
