@@ -1241,7 +1241,7 @@
                             "value": "leisure=dog_park"
                         }, 
                         {
-                            "label": "Fishing", 
+                            "label": "Fishing Spot", 
                             "value": "leisure=fishing"
                         }, 
                         {
@@ -1835,7 +1835,7 @@
                             "value": "shop=fabric"
                         }, 
                         {
-                            "label": "Fishing", 
+                            "label": "Fishing Store", 
                             "value": "shop=fishing"
                         }, 
                         {
