@@ -1477,7 +1477,7 @@
                         {
                             "data_name": "addr:country", 
                             "disabled": false, 
-                            "hidden": false, 
+                            "hidden": true, 
                             "key": "d1b60903-4414-d2b9-a3f1-7a89133f7af9", 
                             "label": "Country", 
                             "numeric": false, 
@@ -1496,7 +1496,7 @@
                             "type": "TextField"
                         }
                     ], 
-                    "hidden": false, 
+                    "hidden": true, 
                     "key": "4fb6c042144140674e000083", 
                     "label": "Address", 
                     "required": false, 
