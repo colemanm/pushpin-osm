@@ -1155,6 +1155,10 @@
                             "value": "man_made=observatory"
                         }, 
                         {
+                            "label": "Pier", 
+                            "value": "man_made=pier"
+                        }, 
+                        {
                             "label": "Power Pole", 
                             "value": "power=pole"
                         }, 
