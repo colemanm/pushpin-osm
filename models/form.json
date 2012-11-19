@@ -49,12 +49,12 @@
                                 {
                                     "field_key": "8f607997-bdaf-57c4-f18c-c45e4a88e09c", 
                                     "operator": "equal_to", 
-                                    "value": "way"
+                                    "value": "relation"
                                 }, 
                                 {
-                                    "field_key": "8f607997-bdaf-57c4-f18c-c45e4a88e09c", 
-                                    "operator": "equal_to", 
-                                    "value": "relation"
+                                    "field_key": "3317dcc6-860d-3b81-0d30-18668c54b740", 
+                                    "operator": "is_not_empty", 
+                                    "value": ""
                                 }
                             ], 
                             "visible_conditions_type": "any"
@@ -461,6 +461,16 @@
                                     "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
                                     "operator": "equal_to", 
                                     "value": "transportation,parking,amenity=parking"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "amenities_outdoor,amenity=bicycle_rental"
+                                }, 
+                                {
+                                    "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf", 
+                                    "operator": "equal_to", 
+                                    "value": "leisure,leisure=slipway"
                                 }
                             ], 
                             "visible_conditions_type": "any"
