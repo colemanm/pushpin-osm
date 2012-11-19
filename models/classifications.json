@@ -34,6 +34,10 @@
                     "value": "building=cathedral"
                 }, 
                 {
+                    "label": "Chapel", 
+                    "value": "building=chapel"
+                }, 
+                {
                     "label": "Church", 
                     "value": "building=church"
                 }, 
@@ -114,12 +118,20 @@
                     "value": "building=industrial"
                 }, 
                 {
+                    "label": "Kindergarten", 
+                    "value": "building=kindergarten"
+                }, 
+                {
                     "label": "Manufacturing", 
                     "value": "building=manufacture"
                 }, 
                 {
                     "label": "Office", 
                     "value": "building=office"
+                }, 
+                {
+                    "label": "Public", 
+                    "value": "building=public"
                 }, 
                 {
                     "label": "Residential", 
@@ -158,8 +170,16 @@
                     "value": "building=storage"
                 }, 
                 {
+                    "label": "Storage Tan", 
+                    "value": "building=storage_tank"
+                }, 
+                {
                     "label": "Store", 
                     "value": "building=store"
+                }, 
+                {
+                    "label": "Supermarket", 
+                    "value": "building=supermarket"
                 }, 
                 {
                     "label": "Terrace", 
@@ -168,6 +188,10 @@
                 {
                     "label": "Train Station", 
                     "value": "building=train_station"
+                }, 
+                {
+                    "label": "Transportation", 
+                    "value": "building=transportation"
                 }, 
                 {
                     "label": "University", 
