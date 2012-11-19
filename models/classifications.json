@@ -2273,24 +2273,6 @@
                             "value": "car_services"
                         }, 
                         {
-                            "child_classifications": [
-                                {
-                                    "label": "Boatyard", 
-                                    "value": "waterway=boatyard"
-                                }, 
-                                {
-                                    "label": "Dock", 
-                                    "value": "waterway=dock"
-                                }, 
-                                {
-                                    "label": "Ferry Terminal", 
-                                    "value": "amenity=ferry_terminal"
-                                }
-                            ], 
-                            "label": "Shipping / Maritime", 
-                            "value": "shipping"
-                        }, 
-                        {
                             "label": "Electric Vehicle Charging", 
                             "value": "amenity=ev_charging"
                         }, 
@@ -2425,6 +2407,24 @@
                             ], 
                             "label": "Railways", 
                             "value": "railways"
+                        }, 
+                        {
+                            "child_classifications": [
+                                {
+                                    "label": "Boatyard", 
+                                    "value": "waterway=boatyard"
+                                }, 
+                                {
+                                    "label": "Dock", 
+                                    "value": "waterway=dock"
+                                }, 
+                                {
+                                    "label": "Ferry Terminal", 
+                                    "value": "amenity=ferry_terminal"
+                                }
+                            ], 
+                            "label": "Shipping / Maritime", 
+                            "value": "shipping"
                         }, 
                         {
                             "label": "Speed Bump", 
