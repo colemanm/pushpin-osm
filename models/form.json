@@ -58,6 +58,25 @@
                                 }
                             ], 
                             "visible_conditions_type": "any"
+                        }, 
+                        {
+                            "allow_other": false, 
+                            "classification_set_id": "50aaee76a9344877790007f2", 
+                            "data_name": "landuse", 
+                            "disabled": false, 
+                            "hidden": false, 
+                            "key": "6ae4312c-52e1-0d35-83d2-eff6556e8a5e", 
+                            "label": "Landuse", 
+                            "required": false, 
+                            "type": "ClassificationField", 
+                            "visible_conditions": [
+                                {
+                                    "field_key": "6ae4312c-52e1-0d35-83d2-eff6556e8a5e", 
+                                    "operator": "is_not_empty", 
+                                    "value": ""
+                                }
+                            ], 
+                            "visible_conditions_type": "all"
                         }
                     ], 
                     "hidden": false, 

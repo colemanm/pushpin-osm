@@ -567,6 +567,163 @@
             "updated_at": "2012-11-02T02:24:09Z"
         }, 
         {
+            "created_at": "2012-11-20T02:44:06Z", 
+            "description": "OSM Landuse", 
+            "id": "50aaee76a9344877790007f2", 
+            "items": [
+                {
+                    "label": "Allotments", 
+                    "value": "landuse=allotments"
+                }, 
+                {
+                    "label": "Aquaculture", 
+                    "value": "landuse=aquaculture"
+                }, 
+                {
+                    "label": "Basin", 
+                    "value": "landuse=basin"
+                }, 
+                {
+                    "label": "Brownfield", 
+                    "value": "landuse=brownfield"
+                }, 
+                {
+                    "label": "Cemetery", 
+                    "value": "landuse=cemetery"
+                }, 
+                {
+                    "label": "Commercial", 
+                    "value": "landuse=commercial"
+                }, 
+                {
+                    "label": "Conservation", 
+                    "value": "landuse=conservation"
+                }, 
+                {
+                    "label": "Construction", 
+                    "value": "landuse=construction"
+                }, 
+                {
+                    "label": "Farm", 
+                    "value": "landuse=farm"
+                }, 
+                {
+                    "label": "Farmland", 
+                    "value": "landuse=farmland"
+                }, 
+                {
+                    "label": "Farmyard", 
+                    "value": "landuse=farmyard"
+                }, 
+                {
+                    "label": "Field", 
+                    "value": "landuse=field"
+                }, 
+                {
+                    "label": "Forest", 
+                    "value": "landuse=forest"
+                }, 
+                {
+                    "label": "Garages", 
+                    "value": "landuse=garages"
+                }, 
+                {
+                    "label": "Grass", 
+                    "value": "landuse=grass"
+                }, 
+                {
+                    "label": "Greenfield", 
+                    "value": "landuse=greenfield"
+                }, 
+                {
+                    "label": "Greenhouse Horticulture", 
+                    "value": "landuse=greenhouse_horticulture"
+                }, 
+                {
+                    "label": "Industrial", 
+                    "value": "landuse=industrial"
+                }, 
+                {
+                    "label": "Landfill", 
+                    "value": "landuse=landfill"
+                }, 
+                {
+                    "label": "Meadow", 
+                    "value": "landuse=meadow"
+                }, 
+                {
+                    "label": "Military", 
+                    "value": "landuse=military"
+                }, 
+                {
+                    "label": "Mine", 
+                    "value": "landuse=mine"
+                }, 
+                {
+                    "label": "Orchard", 
+                    "value": "landuse=orchard"
+                }, 
+                {
+                    "label": "Plant Nursery", 
+                    "value": "landuse=plant_nursery"
+                }, 
+                {
+                    "label": "Pond", 
+                    "value": "landuse=pond"
+                }, 
+                {
+                    "label": "Quarry", 
+                    "value": "landuse=quarry"
+                }, 
+                {
+                    "label": "Railway", 
+                    "value": "landuse=railway"
+                }, 
+                {
+                    "label": "Recreation Ground", 
+                    "value": "landuse=recreation_ground"
+                }, 
+                {
+                    "label": "Reservoir", 
+                    "value": "landuse=reservoir"
+                }, 
+                {
+                    "label": "Reservoir Watershed", 
+                    "value": "landuse=reservoir_watershed"
+                }, 
+                {
+                    "label": "Residential", 
+                    "value": "landuse=residential"
+                }, 
+                {
+                    "label": "Retail", 
+                    "value": "landuse=retail"
+                }, 
+                {
+                    "label": "Salt Pond", 
+                    "value": "landuse=salt_pond"
+                }, 
+                {
+                    "label": "Scrub", 
+                    "value": "landuse=scrub"
+                }, 
+                {
+                    "label": "Village Green", 
+                    "value": "landuse=village_green"
+                }, 
+                {
+                    "label": "Vineyard", 
+                    "value": "landuse=vineyard"
+                }, 
+                {
+                    "label": "Wood", 
+                    "value": "landuse=wood"
+                }
+            ], 
+            "name": "OSM Landuse", 
+            "updated_at": "2012-11-20T02:44:06Z"
+        }, 
+        {
             "created_at": "2012-11-02T02:23:27Z", 
             "description": "For classifying places of worship.", 
             "id": "50932e9fa9344839320001fa", 
@@ -2565,6 +2722,6 @@
     ], 
     "current_page": 1, 
     "per_page": 50, 
-    "total_count": 4, 
+    "total_count": 5, 
     "total_pages": 1
 }

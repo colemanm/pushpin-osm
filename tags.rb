@@ -1,6 +1,6 @@
 require 'json'
 
-tag_name = 'building'
+tag_name = 'landuse'
 
 tags = JSON.parse(`curl -sq "http://taginfo.openstreetmap.org/api/2/db/keys/values?key=#{tag_name}\&sortname=count_all\&rp=500\&sortorder=desc\&page=1"`)
 
