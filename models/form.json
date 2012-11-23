@@ -1187,7 +1187,7 @@
                         {
                             "allow_other": true, 
                             "choice_list_id": "50932e72a934483923000060", 
-                            "data_name": "vending_contents", 
+                            "data_name": "vending", 
                             "disabled": false, 
                             "hidden": false, 
                             "key": "77a358c1-c21d-73d3-f302-8524c756026c", 
@@ -1486,7 +1486,7 @@
                         {
                             "data_name": "addr:state", 
                             "disabled": false, 
-                            "hidden": false, 
+                            "hidden": true, 
                             "key": "1ee9d870-6ce7-d3f6-e894-2a44d93c2dae", 
                             "label": "State", 
                             "numeric": false, 
@@ -1733,6 +1733,16 @@
                             "multiple": false, 
                             "required": false, 
                             "type": "ChoiceField"
+                        }, 
+                        {
+                            "data_name": "change_comment_optional", 
+                            "disabled": false, 
+                            "hidden": false, 
+                            "key": "0a407078-2b6b-c2fe-354b-f397b7ca61cc", 
+                            "label": "Change Comment (optional)", 
+                            "numeric": false, 
+                            "required": false, 
+                            "type": "TextField"
                         }
                     ], 
                     "hidden": false, 

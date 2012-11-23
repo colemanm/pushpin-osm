@@ -305,8 +305,16 @@
                     "value": "sport=dog_racing"
                 }, 
                 {
+                    "label": "Fishing", 
+                    "value": "sport=fishing"
+                }, 
+                {
                     "label": "Football", 
                     "value": "sport=american_football"
+                }, 
+                {
+                    "label": "Gaelic Games", 
+                    "value": "sport=gaelic_games"
                 }, 
                 {
                     "label": "Golf", 
@@ -323,6 +331,14 @@
                 {
                     "label": "Horseshoes", 
                     "value": "sport=horseshoes"
+                }, 
+                {
+                    "label": "Lawn Bowls", 
+                    "value": "sport=bowls"
+                }, 
+                {
+                    "label": "Motocross", 
+                    "value": "sport=motocross"
                 }, 
                 {
                     "label": "Multipurpose", 
@@ -343,6 +359,10 @@
                 {
                     "label": "Rugby Union", 
                     "value": "sport=rugby_union"
+                }, 
+                {
+                    "label": "Running", 
+                    "value": "sport=running"
                 }, 
                 {
                     "label": "Shooting", 
@@ -393,8 +413,12 @@
                     "value": "sport=toboggan"
                 }, 
                 {
-                    "label": "Track & Field", 
+                    "label": "Track & Field / Athletics", 
                     "value": "sport=athletics"
+                }, 
+                {
+                    "label": "Trampoline", 
+                    "value": "sport=trampoline"
                 }, 
                 {
                     "label": "Volleyball", 

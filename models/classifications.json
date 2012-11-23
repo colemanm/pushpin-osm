@@ -102,6 +102,10 @@
                     "value": "building=hospital"
                 }, 
                 {
+                    "label": "Hostel", 
+                    "value": "building=hostel"
+                }, 
+                {
                     "label": "Hotel", 
                     "value": "building=hotel"
                 }, 
@@ -170,7 +174,7 @@
                     "value": "building=storage"
                 }, 
                 {
-                    "label": "Storage Tan", 
+                    "label": "Storage Tank", 
                     "value": "building=storage_tank"
                 }, 
                 {
@@ -1344,6 +1348,10 @@
                             "value": "amenity=school"
                         }, 
                         {
+                            "label": "Training / Academy / Learning", 
+                            "value": "amenity=training"
+                        }, 
+                        {
                             "label": "University", 
                             "value": "amenity=university"
                         }
@@ -1450,6 +1458,10 @@
                         {
                             "label": "Surveillance Camera", 
                             "value": "man_made=surveillance"
+                        }, 
+                        {
+                            "label": "Survey Point", 
+                            "value": "man_made=survey_point"
                         }, 
                         {
                             "label": "Tower", 
@@ -1610,12 +1622,20 @@
                 {
                     "child_classifications": [
                         {
+                            "label": "Bay", 
+                            "value": "natural=bay"
+                        }, 
+                        {
                             "label": "Beach", 
                             "value": "natural=beach"
                         }, 
                         {
                             "label": "Cliff", 
                             "value": "natural=cliff"
+                        }, 
+                        {
+                            "label": "Grass", 
+                            "value": "natural=grass"
                         }, 
                         {
                             "label": "Peak", 
@@ -1886,10 +1906,6 @@
                         {
                             "label": "Public Building", 
                             "value": "amenity=public_building"
-                        }, 
-                        {
-                            "label": "Recycling", 
-                            "value": "amenity=recycling"
                         }, 
                         {
                             "label": "Sauna", 
