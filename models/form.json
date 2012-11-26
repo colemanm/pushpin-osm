@@ -1574,7 +1574,7 @@
                         }, 
                         {
                             "data_name": "opening_hours", 
-                            "description": "http://wiki.openstreetmap.org/wiki/Key:opening_hours", 
+                            "description": "http://pushpinosm.org/help/opening-hours.html", 
                             "disabled": false, 
                             "hidden": false, 
                             "key": "2fcfa410-ce2d-1fd2-c1c5-c8c50e2a53e8", 
