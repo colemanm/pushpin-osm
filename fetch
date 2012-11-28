@@ -6,10 +6,11 @@ require 'json'
 `curl -s -H "X-ApiToken: c99aacff8ea36b5c2a1d6f09a65532563f394e7552c39d7a5ce40236f3083225" http://web.fulcrumapp.com/api/v2/choice_lists.json | python -mjson.tool > models/choice_lists.json`
 `curl -s -H "X-ApiToken: c99aacff8ea36b5c2a1d6f09a65532563f394e7552c39d7a5ce40236f3083225" http://web.fulcrumapp.com/api/v2/forms.json | python -mjson.tool > models/form.json`
 
-form = JSON.parse(File.read('models/form.json'))['forms'][0]
+json = JSON.parse(File.read('models/form.json'))
+form = json['forms'][0]
 form['elements'][0]['elements'].find {|e| e['data_name'] == 'building'}['visible_conditions'][1]['field_key'] = '3317dcc6-860d-3b81-0d30-18668c54b740'
 form['elements'][0]['elements'].find {|e| e['data_name'] == 'landuse'}['visible_conditions'][0]['field_key'] = '6ae4312c-52e1-0d35-83d2-eff6556e8a5e'
 
 form['elements'].find {|e| e['key'] == '4fb6c042144140674e000083'}['hidden'] = false
 
-File.open('models/form.json', 'w') {|f| f.write(JSON.pretty_generate(form))}
+File.open('models/form.json', 'w') {|f| f.write(JSON.pretty_generate(json))}
