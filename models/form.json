@@ -1744,12 +1744,12 @@
                             "type": "ChoiceField"
                         }, 
                         {
-                            "data_name": "change_comment_optional", 
+                            "data_name": "change_comment", 
                             "description": "http://pushpinosm.org/help/changeset-comment.html", 
                             "disabled": false, 
                             "hidden": false, 
                             "key": "0a407078-2b6b-c2fe-354b-f397b7ca61cc", 
-                            "label": "Change Comment (optional)", 
+                            "label": "Change Comment", 
                             "numeric": false, 
                             "required": false, 
                             "type": "TextField"
