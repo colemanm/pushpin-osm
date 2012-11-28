@@ -1733,7 +1733,7 @@
             {
               "data_name": "tags",
               "disabled": true,
-              "hidden": false,
+              "hidden": true,
               "key": "2fc8e67e-2a01-77d2-3ac2-273f449091d3",
               "label": "Tags",
               "numeric": false,
