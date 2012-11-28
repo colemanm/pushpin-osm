@@ -1426,55 +1426,6 @@
           "type": "Section"
         },
         {
-          "data_name": "transport",
-          "disabled": false,
-          "elements": [
-            {
-              "data_name": "stop_name",
-              "disabled": false,
-              "hidden": false,
-              "key": "a21c434e-92d7-c563-6113-e08c0e95acff",
-              "label": "Stop Name",
-              "numeric": false,
-              "required": false,
-              "type": "TextField"
-            },
-            {
-              "data_name": "ref",
-              "disabled": false,
-              "hidden": false,
-              "key": "e19f0677-47f0-16d4-50dc-bb4719c36b83",
-              "label": "Stop ID",
-              "numeric": false,
-              "required": false,
-              "type": "TextField"
-            }
-          ],
-          "hidden": false,
-          "key": "4fb6c042144140674e00007e",
-          "label": "Transport",
-          "required": false,
-          "type": "Section",
-          "visible_conditions": [
-            {
-              "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf",
-              "operator": "equal_to",
-              "value": "transportation,buses"
-            },
-            {
-              "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf",
-              "operator": "equal_to",
-              "value": "transportation,railways"
-            },
-            {
-              "field_key": "9b0f2274-d66f-e79b-40b4-651d9e4581cf",
-              "operator": "equal_to",
-              "value": "transportation,airports"
-            }
-          ],
-          "visible_conditions_type": "any"
-        },
-        {
           "data_name": "address",
           "disabled": false,
           "elements": [
