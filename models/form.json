@@ -1622,6 +1622,7 @@
           "elements": [
             {
               "data_name": "contact:phone",
+              "description": "http://pushpinosm.org/help/phone.html",
               "disabled": false,
               "hidden": false,
               "key": "74796b16-3497-a4b1-1e93-53184c07aed8",
@@ -1632,6 +1633,7 @@
             },
             {
               "data_name": "contact:fax",
+              "description": "http://pushpinosm.org/help/fax.html",
               "disabled": false,
               "hidden": false,
               "key": "3279f6ce-2fd7-41fe-b1d3-30fb5205eb54",
@@ -1642,6 +1644,7 @@
             },
             {
               "data_name": "contact:website",
+              "description": "http://pushpinosm.org/help/website.html",
               "disabled": false,
               "hidden": false,
               "key": "4fbd6475-cad0-67e8-8bc3-b8b66b7bca1b",
@@ -1652,6 +1655,7 @@
             },
             {
               "data_name": "contact:email",
+              "description": "http://pushpinosm.org/help/email.html",
               "disabled": false,
               "hidden": false,
               "key": "527178a5-afe7-11c9-77ae-bf4c492f71c7",
