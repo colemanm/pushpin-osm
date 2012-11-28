@@ -1491,7 +1491,6 @@
             },
             {
               "data_name": "addr:street",
-              "description": "http://pushpinosm.org/help/addr-street.html",
               "disabled": false,
               "hidden": false,
               "key": "4e4c98ee-a209-b8eb-38c6-5935e4d9d306",
@@ -1502,7 +1501,6 @@
             },
             {
               "data_name": "addr:city",
-              "description": "http://pushpinosm.org/help/addr-city.html",
               "disabled": false,
               "hidden": false,
               "key": "d2bdffbf-cc5f-f716-7fe1-1bdd2742003f",
@@ -1523,7 +1521,6 @@
             },
             {
               "data_name": "addr:postcode",
-              "description": "http://pushpinosm.org/help/addr-postalcode.html",
               "disabled": false,
               "hidden": false,
               "key": "0d40bee5-972b-b3fc-676b-0a71c80c6376",
@@ -1566,7 +1563,7 @@
           "elements": [
             {
               "data_name": "operator",
-              "description": "The operator tag is used to name a company, corporation, person or any other entity who is in charge of the operation of a certain map object.\n\nOften it's useful to describe that a certain map object \"belongs\" to a company or corporation in any way. For example: With the emerging of private postal service providers, it may be of interest for the map user which postal services provider operates a certain post_box.\n\nWhen choosing the appropriate value it is beneficial to use exactly the same text, including capitalization across all entries. The title of the associated Wikipedia article for the same organization may be useful as a reference.",
+              "description": "http://pushpinosm.org/help/operator.html",
               "disabled": false,
               "hidden": false,
               "key": "6a12e3b2-f030-b429-0c47-6675329f1c6f",
@@ -1592,7 +1589,7 @@
                 }
               ],
               "data_name": "wheelchair",
-              "description": "Is it wheelchair accessible?\n\nThis tag may be used to mark places or ways that are suitable to be used with a wheelchair. It should only be used if you are sure about it. This can either be because there's a special sign or because of personal experience/someone with a wheelchair told you. There are also a lot of other Tags that can help to determine if the way is suitable for wheelchairs.",
+              "description": "http://pushpinosm.org/help/wheelchair-access.html",
               "disabled": false,
               "hidden": false,
               "key": "e78bf83a-752c-7b31-efb7-fddda55af8d0",
@@ -1687,6 +1684,7 @@
             },
             {
               "data_name": "attribution",
+              "description": "http://pushpinosm.org/help/attribution.html",
               "disabled": false,
               "hidden": false,
               "key": "4b8290c5-a7a2-c188-b6fb-4ed84fcd5ee6",
