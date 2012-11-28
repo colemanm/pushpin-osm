@@ -405,7 +405,7 @@
             },
             {
               "data_name": "building_height_in_meters",
-              "description": "The key height describes the actual height of a feature. By default, values will be interpreted as meters. If the height should be specified in a different unit, the unit can be added to the end of the value, separated by a space. The value should always use the dot as decimal separator, if needed.\n\nFor ways or areas in which height varies, a average height can be specified.\n\n== Height of buildings ==\n\nFor buildings not the average height, but the maximum height should be specified, i.e. the height of the top edge of the building.\n\nMore info: http://wiki.openstreetmap.org/wiki/Key:height",
+              "description": "http://pushpinosm.org/help/building-height.html",
               "disabled": false,
               "hidden": false,
               "key": "56dcc60a-39db-7524-6a7c-20bb3ddc2443",
@@ -429,6 +429,7 @@
             },
             {
               "data_name": "number_of_floors_levels",
+              "description": "http://pushpinosm.org/help/floors.html",
               "disabled": false,
               "hidden": false,
               "key": "51cabbd1-d003-1a81-a0d2-f0abd518d75d",
@@ -467,6 +468,7 @@
                 }
               ],
               "data_name": "fee",
+              "description": "http://pushpinosm.org/help/fee.html",
               "disabled": false,
               "hidden": false,
               "key": "ab5feba9-87fb-d927-a88d-91497dc02da8",
@@ -505,6 +507,7 @@
             },
             {
               "data_name": "network",
+              "description": "http://pushpinosm.org/help/network.html",
               "disabled": false,
               "hidden": false,
               "key": "b48e72e3-875f-0e7e-71ce-765990549129",
@@ -554,6 +557,7 @@
                 }
               ],
               "data_name": "prescription_drugs",
+              "description": "http://pushpinosm.org/help/prescription-drugs.html",
               "disabled": false,
               "hidden": false,
               "key": "3ade0e69-1671-9477-f238-e279beb1e1ae",
@@ -583,7 +587,7 @@
                 }
               ],
               "data_name": "food",
-              "description": "Does the venue serve food?",
+              "description": "http://pushpinosm.org/help/serves-food.html",
               "disabled": false,
               "hidden": false,
               "key": "d0948d47-f310-4fda-85d7-a6596de52d2c",
@@ -607,6 +611,7 @@
             },
             {
               "data_name": "capacity",
+              "description": "http://pushpinosm.org/help/capacity.html",
               "disabled": false,
               "hidden": false,
               "key": "93f5b85a-a33a-a88e-5e8f-011f49f9e882",
@@ -645,6 +650,7 @@
             },
             {
               "data_name": "brand",
+              "description": "http://pushpinosm.org/help/brand.html",
               "disabled": false,
               "hidden": false,
               "key": "ecd288c5-f67b-dc12-44f4-889e64cc87b5",
@@ -742,7 +748,7 @@
                 }
               ],
               "data_name": "car_wash",
-              "description": "Is there car wash service available at the location?",
+              "description": "http://pushpinosm.org/help/car-wash.html",
               "disabled": false,
               "hidden": false,
               "key": "bcd2a7f4-9907-9b7c-8d97-a3cffe3948e5",
@@ -776,7 +782,7 @@
                 }
               ],
               "data_name": "internet_access",
-              "description": "Is there public internet access at the venue?\n\nThis tag is for indication that a map entity such as a building, a shop, restaurant, etc. offers internet access to the public, either as a paid service or even for free.\n\nThis tag could be used for:\n• Internet cafes\n• Shops which offer internet as service\n• Libraries which offer internet access\n• Hotels, hostels or other accomodation with internet\n• open spaces like squares or streets with public WLAN hotspots.\n\nThis tag should NOT be used for:\nEvery internet access which is only for members or private persons, and not offered to the general public. This includes your personal home DSL, LAN, WLAN, any internal networks of companies etc. Also internet access only for students (e.g. WLAN hotspots on the campus) should not be tagged, because this is not a public service and the people who have access rights already know about it. We know the internet is everywhere (or should be), but this tag's aim is to indicate locations where you can get online access just by paying some amount of money (or nothing), with no further efforts needed.",
+              "description": "http://pushpinosm.org/help/internet-access.html",
               "disabled": false,
               "hidden": false,
               "key": "f1477d45-91bf-d54e-18e6-62c641a93083",
@@ -840,6 +846,7 @@
                 }
               ],
               "data_name": "access",
+              "description": "http://pushpinosm.org/help/access.html",
               "disabled": false,
               "hidden": false,
               "key": "edb339a9-e878-89dd-961b-158393a64c60",
@@ -869,7 +876,7 @@
                 }
               ],
               "data_name": "drive_through",
-              "description": "To indicate if an amenity or shop offers a drive-through (also drive-thru) service, ie it is possible to use it without leaving your vehicle. Examples include pharmacies, banks, ATMs, fast food outlets, post boxes or bottle shops.",
+              "description": "http://pushpinosm.org/help/drive-through.html",
               "disabled": false,
               "hidden": false,
               "key": "c523c7ee-0aca-a1d8-f991-6fc8f0627e9d",
@@ -929,6 +936,7 @@
                 }
               ],
               "data_name": "delivery",
+              "description": "http://pushpinosm.org/help/delivery.html",
               "disabled": false,
               "hidden": false,
               "key": "7ba3f048-779b-9f48-be18-37d20ad2fc13",
@@ -973,6 +981,7 @@
                 }
               ],
               "data_name": "covered",
+              "description": "http://pushpinosm.org/help/covered.html",
               "disabled": false,
               "hidden": false,
               "key": "62865072-ad4a-8ff2-5f32-01f18a2ab5ff",
@@ -1057,7 +1066,7 @@
                 }
               ],
               "data_name": "atm",
-              "description": "Is there an ATM available at the location?",
+              "description": "http://pushpinosm.org/help/atm.html",
               "disabled": false,
               "hidden": false,
               "key": "98287789-ecf4-b218-8bf0-23ead28cc15e",
@@ -1138,7 +1147,7 @@
               "allow_other": false,
               "choice_list_id": "50932e30a93448390b0000eb",
               "data_name": "religion",
-              "description": "Add the religion of the place of worship.",
+              "description": "http://pushpinosm.org/help/religion.html",
               "disabled": false,
               "hidden": false,
               "key": "0592cbff-b76b-56ac-9654-ebd6fc4f04b2",
@@ -1159,7 +1168,7 @@
               "allow_other": false,
               "classification_set_id": "50932e9fa9344839320001fa",
               "data_name": "religious_denomination",
-              "description": "Enter the denomination or sect of religion.",
+              "description": "http://pushpinosm.org/help/denomination.html",
               "disabled": false,
               "hidden": false,
               "key": "75a50d95-400a-8635-48cd-209101a6dcd9",
@@ -1177,6 +1186,7 @@
             },
             {
               "data_name": "collection_time",
+              "description": "http://pushpinosm.org/help/collection-times.html",
               "disabled": false,
               "hidden": false,
               "key": "48aba3bb-c8ae-d19c-1c66-70f62e88d86f",
@@ -1197,6 +1207,7 @@
               "allow_other": true,
               "choice_list_id": "50932e72a934483923000060",
               "data_name": "vending",
+              "description": "http://pushpinosm.org/help/vending-contents.html",
               "disabled": false,
               "hidden": false,
               "key": "77a358c1-c21d-73d3-f302-8524c756026c",
@@ -1217,6 +1228,7 @@
               "allow_other": false,
               "choice_list_id": "50932e51a93448390e000185",
               "data_name": "sport",
+              "description": "http://pushpinosm.org/help/sport.html",
               "disabled": false,
               "hidden": false,
               "key": "7c175ba0-2418-aa5b-a118-3dea6b12f605",
@@ -1258,6 +1270,7 @@
               "allow_other": false,
               "classification_set_id": "50932ec9a93448392300006b",
               "data_name": "cuisine",
+              "description": "http://pushpinosm.org/help/cuisine.html",
               "disabled": false,
               "hidden": false,
               "key": "56e112b3-d30d-a29b-1f0b-b6218e79d292",
@@ -1300,6 +1313,7 @@
                 }
               ],
               "data_name": "takeaway",
+              "description": "http://pushpinosm.org/help/takeout.html",
               "disabled": false,
               "hidden": false,
               "key": "e0248629-f936-0896-f0f9-a5eb1bcaf783",
@@ -1339,6 +1353,7 @@
                 }
               ],
               "data_name": "outdoor_seating",
+              "description": "http://pushpinosm.org/help/outdoor-seating.html",
               "disabled": false,
               "hidden": false,
               "key": "ffff0804-7312-dd27-f130-0d2b21e0b22c",
@@ -1381,6 +1396,7 @@
                 }
               ],
               "data_name": "smoking",
+              "description": "http://pushpinosm.org/help/smoking.html",
               "disabled": false,
               "hidden": false,
               "key": "b15c2229-16ed-e591-7956-44d93f16f703",
@@ -1464,6 +1480,7 @@
           "elements": [
             {
               "data_name": "addr:housenumber",
+              "description": "http://pushpinosm.org/help/addr-housenumber.html",
               "disabled": false,
               "hidden": false,
               "key": "9f5ed5a1-e1c0-fdf0-edab-07c5a161478b",
@@ -1474,6 +1491,7 @@
             },
             {
               "data_name": "addr:street",
+              "description": "http://pushpinosm.org/help/addr-street.html",
               "disabled": false,
               "hidden": false,
               "key": "4e4c98ee-a209-b8eb-38c6-5935e4d9d306",
@@ -1484,6 +1502,7 @@
             },
             {
               "data_name": "addr:city",
+              "description": "http://pushpinosm.org/help/addr-city.html",
               "disabled": false,
               "hidden": false,
               "key": "d2bdffbf-cc5f-f716-7fe1-1bdd2742003f",
@@ -1504,6 +1523,7 @@
             },
             {
               "data_name": "addr:postcode",
+              "description": "http://pushpinosm.org/help/addr-postalcode.html",
               "disabled": false,
               "hidden": false,
               "key": "0d40bee5-972b-b3fc-676b-0a71c80c6376",
@@ -1524,7 +1544,7 @@
             },
             {
               "data_name": "unit_suite",
-              "description": "While a big building could have only one entrance, sometimes the way inside divides into different units or staircases, where certain apartments/flats/offices can only be reached though a specific unit. An information necessary for postmen, for example.",
+              "description": "http://pushpinosm.org/help/addr-unit.html",
               "disabled": false,
               "hidden": false,
               "key": "41d6153a-ebf7-6b38-ad18-dbfdc09745b7",
